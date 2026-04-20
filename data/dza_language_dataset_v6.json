@@ -1,0 +1,4770 @@
+{
+  "language": {
+    "name": "Dza",
+    "endonym": "nnwa' dzâ",
+    "exonym": "Jenjo",
+    "iso_code": "jen",
+    "family": "Niger-Congo > Adamawa > Bikwin-Jen",
+    "speakers": 100000,
+    "location": "Jen town, Karim-Lamido LGA, Taraba State, Nigeria",
+    "coordinates": "9°22'46.5\"N 11°27'55.4\"E",
+    "dialects": [
+      "Dzakə",
+      "Ye",
+      "Nwabang"
+    ],
+    "self_name_people": "èédzá / ídzà"
+  },
+  "alphabet": [
+    {
+      "letter": "Aa",
+      "example_word": "Atə",
+      "category": "vowel"
+    },
+    {
+      "letter": "Bb",
+      "example_word": "Ba",
+      "meaning": "goat",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ch ch",
+      "example_word": "Changkə",
+      "category": "consonant"
+    },
+    {
+      "letter": "Dd",
+      "example_word": "Dəng",
+      "category": "consonant"
+    },
+    {
+      "letter": "Dz dz",
+      "example_word": "Dzɛ",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ee",
+      "example_word": "E imwə",
+      "category": "vowel"
+    },
+    {
+      "letter": "Əə",
+      "example_word": "Kə",
+      "meaning": "tree",
+      "category": "vowel"
+    },
+    {
+      "letter": "Ɛɛ",
+      "example_word": "Finglɨ",
+      "category": "vowel"
+    },
+    {
+      "letter": "Ff",
+      "example_word": "Finglɨ",
+      "category": "consonant"
+    },
+    {
+      "letter": "Gg",
+      "example_word": "Gang Foku",
+      "category": "consonant"
+    },
+    {
+      "letter": "Gb gb",
+      "example_word": "Igbəku",
+      "category": "consonant"
+    },
+    {
+      "letter": "Hh",
+      "example_word": "Hũ",
+      "category": "consonant"
+    },
+    {
+      "letter": "Hw hw",
+      "example_word": "Hwə",
+      "category": "consonant"
+    },
+    {
+      "letter": "Hy hy",
+      "example_word": "Hyəng",
+      "category": "consonant"
+    },
+    {
+      "letter": "Hyw",
+      "example_word": "Hywe",
+      "category": "consonant"
+    },
+    {
+      "letter": "Iɨ",
+      "example_word": "Iye",
+      "category": "vowel"
+    },
+    {
+      "letter": "Ɨɨ",
+      "example_word": "Fɨ",
+      "meaning": "duck/sun",
+      "category": "vowel"
+    },
+    {
+      "letter": "Jj",
+      "example_word": "Jəming",
+      "category": "consonant"
+    },
+    {
+      "letter": "Kk",
+      "example_word": "Kəng",
+      "category": "consonant"
+    },
+    {
+      "letter": "Kp kp",
+      "example_word": "Kpɔ̃nɔ",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ll",
+      "example_word": "Lo",
+      "category": "consonant"
+    },
+    {
+      "letter": "Mm",
+      "example_word": "Mi",
+      "category": "consonant"
+    },
+    {
+      "letter": "Nn",
+      "example_word": "Nɨng",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ng ng",
+      "example_word": "Ngwa",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ny ny",
+      "example_word": "Nyinyi",
+      "category": "consonant"
+    },
+    {
+      "letter": "Oo",
+      "example_word": "Yo",
+      "category": "vowel"
+    },
+    {
+      "letter": "Ɔɔ",
+      "example_word": "Yɔ",
+      "category": "vowel"
+    },
+    {
+      "letter": "Pp",
+      "example_word": "Pɨ",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ss",
+      "example_word": "So",
+      "meaning": "elephant",
+      "category": "consonant"
+    },
+    {
+      "letter": "Sh sh",
+      "example_word": "Shə",
+      "category": "consonant"
+    },
+    {
+      "letter": "Tt",
+      "example_word": "Te",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ts ts",
+      "example_word": "Tsilɛ",
+      "category": "consonant"
+    },
+    {
+      "letter": "Uu",
+      "example_word": "Hu",
+      "category": "vowel"
+    },
+    {
+      "letter": "Vv",
+      "example_word": "Və",
+      "meaning": "house",
+      "category": "consonant"
+    },
+    {
+      "letter": "Ww",
+      "example_word": "Wɛ",
+      "meaning": "yam",
+      "category": "consonant"
+    },
+    {
+      "letter": "Yy",
+      "example_word": "Yɛ",
+      "meaning": "chicken",
+      "category": "consonant"
+    },
+    {
+      "letter": "Yw yw",
+      "example_word": "Nɨng Ywə",
+      "category": "consonant"
+    },
+    {
+      "letter": "Zz",
+      "example_word": "Za",
+      "category": "consonant"
+    },
+    {
+      "letter": "Zh zh",
+      "example_word": "Zhɨtəkpɔ",
+      "category": "consonant"
+    }
+  ],
+  "vowel_system": {
+    "oral_vowels": [
+      "i",
+      "e",
+      "ɛ",
+      "ɨ",
+      "ə",
+      "a",
+      "u",
+      "o",
+      "ɔ"
+    ],
+    "nasalized_vowels": [
+      "ĩ",
+      "ɨ̃",
+      "ũ",
+      "ə̃",
+      "ɛ̃",
+      "ɔ̃",
+      "ã"
+    ],
+    "breathy_vowels": [
+      "i̤",
+      "e̤",
+      "ə̤",
+      "a̤",
+      "ṳ",
+      "o̤"
+    ],
+    "total_vowels": 16
+  },
+  "tone_system": {
+    "level_tones": [
+      "H (High)",
+      "M (Mid)",
+      "L (Low)"
+    ],
+    "contour_tones": [
+      "HL",
+      "LH",
+      "LHL",
+      "MH",
+      "ML",
+      "LM"
+    ],
+    "examples": [
+      {
+        "word": "tá",
+        "tone": "H",
+        "meaning": "to cry"
+      },
+      {
+        "word": "tā",
+        "tone": "M",
+        "meaning": "to press"
+      },
+      {
+        "word": "tà",
+        "tone": "L",
+        "meaning": "tobacco"
+      },
+      {
+        "word": "tǎ",
+        "tone": "LH",
+        "meaning": "father"
+      },
+      {
+        "word": "kú",
+        "tone": "H",
+        "meaning": "head"
+      },
+      {
+        "word": "kū",
+        "tone": "M",
+        "meaning": "shade"
+      },
+      {
+        "word": "kù",
+        "tone": "L",
+        "meaning": "shake off"
+      },
+      {
+        "word": "bí",
+        "tone": "H",
+        "meaning": "song"
+      },
+      {
+        "word": "bī",
+        "tone": "M",
+        "meaning": "metal"
+      },
+      {
+        "word": "bì",
+        "tone": "L",
+        "meaning": "word"
+      },
+      {
+        "word": "wá",
+        "tone": "H",
+        "meaning": "fry"
+      },
+      {
+        "word": "wā",
+        "tone": "M",
+        "meaning": "pluck"
+      },
+      {
+        "word": "kí",
+        "tone": "H",
+        "meaning": "stalk"
+      },
+      {
+        "word": "kī",
+        "tone": "M",
+        "meaning": "mat"
+      },
+      {
+        "word": "kì",
+        "tone": "L",
+        "meaning": "prune"
+      }
+    ]
+  },
+  "pronouns": {
+    "subject": {
+      "1sg": "n",
+      "2sg": "à",
+      "3sg": "ò",
+      "1pl": "bɨ̀",
+      "2pl": "bə̀",
+      "3pl": "è"
+    },
+    "object": {
+      "1sg": "mì",
+      "2sg": "mə̀",
+      "3sg": "wə̀",
+      "1pl": "bɨ̀",
+      "2pl": "bə̀",
+      "3pl": "lə̀"
+    },
+    "possessive_adjective": {
+      "my": "mī",
+      "your_sg": "mə̄",
+      "his_her": "wə̀",
+      "our": "bɨ́",
+      "your_pl": "bə́",
+      "their": "lé"
+    },
+    "possessive_pronoun": {
+      "mine": "āmì",
+      "yours_sg": "āmə̀",
+      "his_hers": "āó",
+      "ours": "āvə́ bɨ́",
+      "yours_pl": "āvə́ bə́",
+      "theirs": "āvə́ lə́"
+    },
+    "reflexive": {
+      "myself": "kú mi",
+      "yourself": "kú mə̄",
+      "himself_herself": "kú wə́",
+      "ourselves": "kú bɨ́",
+      "yourselves": "kú bə́",
+      "themselves": "kú lə́"
+    },
+    "interrogative": {
+      "which": "àkè",
+      "who": "wə́ / wəde",
+      "how_much": "pwāné",
+      "what": "bàdé",
+      "where": "bě",
+      "why": "tswe wũ / tswe nwu"
+    }
+  },
+  "numbers": {
+    "cardinal": [
+      {
+        "number": 1,
+        "dza": "tsɨ̀ɲ / tsɨng"
+      },
+      {
+        "number": 2,
+        "dza": "juŋ / bwayung"
+      },
+      {
+        "number": 3,
+        "dza": "tə́ / bwatə"
+      },
+      {
+        "number": 4,
+        "dza": "ɲə̀ / bwanyə"
+      },
+      {
+        "number": 5,
+        "dza": "m̥mɨ̀ / bwahmɨ"
+      },
+      {
+        "number": 6,
+        "dza": "ɥ̥ī-tsɨ̀ŋ / hywĩtsɨng"
+      },
+      {
+        "number": 7,
+        "dza": "ɥ̥ī-juŋ"
+      },
+      {
+        "number": 8,
+        "dza": "ɥ̥ī-tə̀"
+      },
+      {
+        "number": 9,
+        "dza": "ɥ̥ī-ɲə̀"
+      },
+      {
+        "number": 10,
+        "dza": "ɥ̥ə́"
+      },
+      {
+        "number": 15,
+        "dza": "lǐ"
+      },
+      {
+        "number": 20,
+        "dza": "uŋ-tsúŋ"
+      },
+      {
+        "number": 46,
+        "dza": "nwuyung ji hywĩtsɨng"
+      },
+      {
+        "number": 100,
+        "dza": "nwuntsɨng"
+      },
+      {
+        "number": 38,
+        "dza": "nwutsɨng ji bwali yantsɨ hywa bwatə",
+        "note": "thirty-eight years"
+      },
+      {
+        "number": 5000,
+        "dza": "nwufe bwahmɨ",
+        "note": "five thousand"
+      },
+      {
+        "number": 12,
+        "dza": "bwahywə ji yung",
+        "note": "twelve (baskets)"
+      }
+    ]
+  },
+  "grammar": {
+    "plural_marker": "è- (prefix)",
+    "plural_examples": [
+      {
+        "singular": "yɛ̀ (chicken)",
+        "plural": "è-yɛ̀"
+      },
+      {
+        "singular": "yɔ́ (pig)",
+        "plural": "è-yɔ́"
+      },
+      {
+        "singular": "ìdzwa (dog)",
+        "plural": "è-ìdzwà"
+      },
+      {
+        "singular": "ìfɨ́ (person)",
+        "plural": "è-ìfɨ́"
+      },
+      {
+        "singular": "ìjè (woman)",
+        "plural": "è-ìjè"
+      },
+      {
+        "singular": "nɨ̀npú (goat)",
+        "plural": "è-nɨ̀npú"
+      }
+    ],
+    "nominalization_prefix": "i-",
+    "nominalization_examples": [
+      {
+        "verb": "tenwá (announce)",
+        "noun": "ìtènwá (announcer)"
+      },
+      {
+        "verb": "lébí (sing)",
+        "noun": "ìlébí (singer)"
+      },
+      {
+        "verb": "tsə̀kì (mourn)",
+        "noun": "ìtsə̀kì (mourner)"
+      },
+      {
+        "verb": "nyi (teach)",
+        "noun": "inyinasɨnɨng (teacher)"
+      },
+      {
+        "verb": "linwa (prophesy)",
+        "noun": "ilinwa (prophet)"
+      },
+      {
+        "verb": "walena (anoint)",
+        "noun": "iwalena (anointed one/messiah)"
+      },
+      {
+        "verb": "twe (own)",
+        "noun": "ìtwè (owner/lord)"
+      }
+    ],
+    "genitive": {
+      "inalienable": "juxtaposition: nwa Esther = Esther's mouth",
+      "alienable": "marker və̀: ìdzwa və̀ Nlabe = Nlabe's dog"
+    },
+    "determiners": {
+      "definite_article": "dè",
+      "demonstrative_proximal": "nɨ̄ (this)",
+      "demonstrative_distal": "lê (that)"
+    },
+    "quantifiers": [
+      {
+        "dza": "kè",
+        "meaning": "any/each/but"
+      },
+      {
+        "dza": "hɛ̃",
+        "meaning": "all"
+      },
+      {
+        "dza": "àkə̀",
+        "meaning": "some/a certain"
+      },
+      {
+        "dza": "tsɨ́ŋ tsɨ́ŋ",
+        "meaning": "each"
+      },
+      {
+        "dza": "ìhyãnɨ̀ŋ / ihyãnɨng",
+        "meaning": "many"
+      },
+      {
+        "dza": "tswə̀nɨ̂",
+        "meaning": "few"
+      },
+      {
+        "dza": "dzungdzung",
+        "meaning": "many (variant)"
+      },
+      {
+        "dza": "hywakĩ",
+        "meaning": "away/completely"
+      }
+    ],
+    "tense_aspect": {
+      "non_past": "n (after subject pronoun): sɨn wulɨ = is coming",
+      "perfective": "yang (completed action): chi yang = found already",
+      "future": "yin (will): yin wukə = will come",
+      "habitual": "sɨn + verb: sɨn tswekə = does/is doing",
+      "progressive": "sɨn + verb + lɨ: sɨn wulɨ = is coming",
+      "imperative_sg": "a + verb: a wu = come!",
+      "imperative_pl": "ba + verb: ba wu = come (you all)!"
+    },
+    "negation": "verb + lo: yi wə lo = did not know him",
+    "word_order": "SVO, modifiers follow head noun",
+    "relative_clause": "nɨ marks relative: ifɨ nɨ wu = person who came",
+    "copula": "dɨ...kə: Dɨ mə kə Ivə = You are the King",
+    "conditional": "aba...yang: Aba a yipɨ yang = If you knew",
+    "purpose": "hɛbələ = so that, bisɨ = because/in order to",
+    "necessity": "tɔle = must/it is necessary",
+    "sequential_narrative": "bɨ = and then (narrative connector)",
+    "comparison": "pe...yang = surpass/greater than",
+    "question_formation": "add wəde (who), bede (what), bě (where), tswe wũ/nwu (why)",
+    "reported_speech": "tsa + quote: o tsa 'dɨ mi kə...' = he said 'I am...'"
+  },
+  "vocabulary": {
+    "body_parts": [
+      {
+        "dza": "kú",
+        "english": "head"
+      },
+      {
+        "dza": "nɨ̀ŋ / nɨng",
+        "english": "eye"
+      },
+      {
+        "dza": "tshwtshwí",
+        "english": "ear"
+      },
+      {
+        "dza": "bwaadjwí",
+        "english": "nose"
+      },
+      {
+        "dza": "nnwà / nwà",
+        "english": "mouth"
+      },
+      {
+        "dza": "djìì",
+        "english": "tooth"
+      },
+      {
+        "dza": "lɔ̃",
+        "english": "tongue"
+      },
+      {
+        "dza": "kanàà / nàà",
+        "english": "hand"
+      },
+      {
+        "dza": "hyüa / ywá",
+        "english": "belly/stomach"
+      },
+      {
+        "dza": "tshwìì / tʃúwì",
+        "english": "neck"
+      },
+      {
+        "dza": "míí",
+        "english": "breast"
+      },
+      {
+        "dza": "nyíí / ɲɨ̃́ɲɨ̃́",
+        "english": "heart"
+      },
+      {
+        "dza": "nyii / nyiifɨ",
+        "english": "liver"
+      },
+      {
+        "dza": "tsaa",
+        "english": "hair/feather"
+      },
+      {
+        "dza": "hywũi",
+        "english": "blood"
+      },
+      {
+        "dza": "kUUkU",
+        "english": "bone"
+      },
+      {
+        "dza": "nnwi",
+        "english": "grease/fat"
+      },
+      {
+        "dza": "gbɔN / pɨ̄ŋ",
+        "english": "egg"
+      },
+      {
+        "dza": "kanyì",
+        "english": "tail"
+      },
+      {
+        "dza": "kwan cínà",
+        "english": "claw/fingernail"
+      },
+      {
+        "dza": "kɔpùù / pù / bù",
+        "english": "foot/leg"
+      },
+      {
+        "dza": "kadzwaN",
+        "english": "knee"
+      },
+      {
+        "dza": "nɨ́ŋdʒwà",
+        "english": "wound"
+      },
+      {
+        "dza": "nɨngji / nɨngji nwa mbɛ",
+        "english": "bosom/chest"
+      },
+      {
+        "dza": "nyɔ",
+        "english": "blood (also desire)"
+      },
+      {
+        "dza": "tswə",
+        "english": "body"
+      },
+      {
+        "dza": "hyə̃hyə̃",
+        "english": "flesh/body (meat)"
+      },
+      {
+        "dza": "hywi (noun)",
+        "english": "blood (to drink)"
+      },
+      {
+        "dza": "nɨnghywəna",
+        "english": "finger"
+      },
+      {
+        "dza": "nɨng (eyes)",
+        "english": "eyes (variant spelling)"
+      },
+      {
+        "dza": "tswɑ̀",
+        "english": "back (body)"
+      },
+      {
+        "dza": "lṳ́",
+        "english": "tongue (IPA confirmed)"
+      },
+      {
+        "dza": "dʒɨ̄",
+        "english": "tooth (IPA confirmed)"
+      },
+      {
+        "dza": "dʒwɨ̄ (nose)",
+        "english": "nose (IPA confirmed)"
+      },
+      {
+        "dza": "ŋwɑ́kə́ntʃɛ̄",
+        "english": "wing"
+      },
+      {
+        "dza": "kə́ɲɨ̄",
+        "english": "tail (IPA confirmed)"
+      },
+      {
+        "dza": "gə̃mɨ̀",
+        "english": "tears"
+      },
+      {
+        "dza": "swɨ́",
+        "english": "gray hair"
+      },
+      {
+        "dza": "fɨ́ŋlɨ́",
+        "english": "flower"
+      },
+      {
+        "dza": "pwɛ̀",
+        "english": "bark (tree)"
+      }
+    ],
+    "people_family": [
+      {
+        "dza": "ìfɨ́ / ifɨ",
+        "english": "person/human"
+      },
+      {
+        "dza": "ìbwɨ́ / íbwì / ibwi",
+        "english": "man"
+      },
+      {
+        "dza": "ìjè / iye",
+        "english": "woman/wife"
+      },
+      {
+        "dza": "ìmwə̀ / imwə",
+        "english": "child"
+      },
+      {
+        "dza": "jɨ́ / yɨ",
+        "english": "child/son"
+      },
+      {
+        "dza": "yi",
+        "english": "child (from chart)"
+      },
+      {
+        "dza": "tǎ / ta",
+        "english": "father"
+      },
+      {
+        "dza": "nə / nǎ / na",
+        "english": "mother"
+      },
+      {
+        "dza": "hywī / ɥĩ̀ / hywĩ",
+        "english": "brother/sister/sibling"
+      },
+      {
+        "dza": "ìɲã̀fɨ / ihyãfɨ",
+        "english": "elder/sir/master"
+      },
+      {
+        "dza": "ìtwè / itwe",
+        "english": "owner/lord"
+      },
+      {
+        "dza": "Itwebɨ",
+        "english": "the Lord (our Lord)"
+      },
+      {
+        "dza": "ìvə̀ / ivə",
+        "english": "king"
+      },
+      {
+        "dza": "klɔ",
+        "english": "king maker"
+      },
+      {
+        "dza": "bu",
+        "english": "husband"
+      },
+      {
+        "dza": "iye ahu",
+        "english": "bride"
+      },
+      {
+        "dza": "ibwi ahu",
+        "english": "bridegroom"
+      },
+      {
+        "dza": "mwɛ",
+        "english": "person from (nationality marker)"
+      },
+      {
+        "dza": "e ifafɨ",
+        "english": "people/mankind"
+      },
+      {
+        "dza": "mwambwi",
+        "english": "disciple(s)"
+      },
+      {
+        "dza": "tswə ibwi ahu",
+        "english": "friend of bridegroom/best man"
+      },
+      {
+        "dza": "igbanɨng",
+        "english": "blind person"
+      },
+      {
+        "dza": "inɨnggba",
+        "english": "blind person (born blind)"
+      },
+      {
+        "dza": "ibwisɨ",
+        "english": "lame/crippled person"
+      },
+      {
+        "dza": "ibwipu",
+        "english": "paralyzed person"
+      },
+      {
+        "dza": "igbənɨngtsa / igbə nɨngtsa",
+        "english": "shepherd"
+      },
+      {
+        "dza": "itsɨnɨng",
+        "english": "hired worker/guard"
+      },
+      {
+        "dza": "ifɨ yinɨng",
+        "english": "thief"
+      },
+      {
+        "dza": "ilwe",
+        "english": "robber"
+      },
+      {
+        "dza": "idzwəwɛ",
+        "english": "stranger"
+      },
+      {
+        "dza": "inyinasɨ lenwa",
+        "english": "teacher of the law"
+      },
+      {
+        "dza": "imwə ahang",
+        "english": "youngest/last"
+      },
+      {
+        "dza": "Ibrahim",
+        "english": "Abraham"
+      },
+      {
+        "dza": "Dauda",
+        "english": "David"
+      },
+      {
+        "dza": "Sulemanu",
+        "english": "Solomon"
+      },
+      {
+        "dza": "Iliya",
+        "english": "Elijah"
+      },
+      {
+        "dza": "Nikodimus / Nikodimu",
+        "english": "Nicodemus"
+      },
+      {
+        "dza": "Yusufu / Yusu",
+        "english": "Joseph"
+      },
+      {
+        "dza": "Lazaru",
+        "english": "Lazarus"
+      },
+      {
+        "dza": "Mata",
+        "english": "Martha"
+      },
+      {
+        "dza": "Maryamu",
+        "english": "Mary"
+      },
+      {
+        "dza": "Toma / Yɨzɛ̃",
+        "english": "Thomas (the Twin)"
+      },
+      {
+        "dza": "Kayafa",
+        "english": "Caiaphas (high priest)"
+      },
+      {
+        "dza": "Yahuda Iskariyoti",
+        "english": "Judas Iscariot"
+      },
+      {
+        "dza": "Sima Bitulu",
+        "english": "Simon Peter"
+      },
+      {
+        "dza": "Helina",
+        "english": "Greeks"
+      },
+      {
+        "dza": "Roma",
+        "english": "Romans"
+      },
+      {
+        "dza": "Betani",
+        "english": "Bethany"
+      },
+      {
+        "dza": "Ifremu",
+        "english": "Ephraim"
+      },
+      {
+        "dza": "kute Zetun",
+        "english": "Mount of Olives"
+      },
+      {
+        "dza": "he",
+        "english": "wife/spouse"
+      },
+      {
+        "dza": "lənyɔ",
+        "english": "relative/kinfolk"
+      },
+      {
+        "dza": "papa",
+        "english": "ancestor/forefather"
+      },
+      {
+        "dza": "pɨnyi",
+        "english": "family line/clan/tribe"
+      },
+      {
+        "dza": "mwəhe (person)",
+        "english": "virgin/young woman"
+      },
+      {
+        "dza": "kɨngwɛ iye",
+        "english": "unmarried woman/virgin"
+      },
+      {
+        "dza": "mbwe",
+        "english": "enemy"
+      },
+      {
+        "dza": "ihyɔ̃nɨng",
+        "english": "priest (confirmed)"
+      },
+      {
+        "dza": "ilinwa",
+        "english": "prophet (confirmed)"
+      },
+      {
+        "dza": "Zakariya",
+        "english": "Zechariah"
+      },
+      {
+        "dza": "Alisabatu",
+        "english": "Elizabeth"
+      },
+      {
+        "dza": "Maryamu",
+        "english": "Mary (confirmed)"
+      },
+      {
+        "dza": "Hiridus",
+        "english": "Herod"
+      },
+      {
+        "dza": "Haruna",
+        "english": "Aaron"
+      },
+      {
+        "dza": "Abija",
+        "english": "Abijah (priestly division)"
+      },
+      {
+        "dza": "Yakubu",
+        "english": "Jacob"
+      },
+      {
+        "dza": "Tiyofilus",
+        "english": "Theophilus"
+      },
+      {
+        "dza": "Iliya",
+        "english": "Elijah (confirmed)"
+      },
+      {
+        "dza": "Dauda",
+        "english": "David (confirmed)"
+      }
+    ],
+    "animals": [
+      {
+        "dza": "bá",
+        "english": "goat"
+      },
+      {
+        "dza": "nɨ̀npú",
+        "english": "goat (alternate)"
+      },
+      {
+        "dza": "yɛ̀",
+        "english": "chicken"
+      },
+      {
+        "dza": "yɔ́",
+        "english": "pig"
+      },
+      {
+        "dza": "ìdzwa",
+        "english": "dog"
+      },
+      {
+        "dza": "hnyEN",
+        "english": "fish"
+      },
+      {
+        "dza": "ihwui",
+        "english": "bird"
+      },
+      {
+        "dza": "nsẽ",
+        "english": "louse"
+      },
+      {
+        "dza": "mambɨŋ",
+        "english": "frog"
+      },
+      {
+        "dza": "ó",
+        "english": "porcupine"
+      },
+      {
+        "dza": "ʃi",
+        "english": "crocodile"
+      },
+      {
+        "dza": "hyɔ̃́",
+        "english": "cow"
+      },
+      {
+        "dza": "wāndē",
+        "english": "donkey"
+      },
+      {
+        "dza": "só / sò",
+        "english": "elephant"
+      },
+      {
+        "dza": "nɨngpungga",
+        "english": "sheep/lamb"
+      },
+      {
+        "dza": "ko",
+        "english": "dove/pigeon"
+      },
+      {
+        "dza": "hyɔ̃nɨng",
+        "english": "pigeon (offering)"
+      },
+      {
+        "dza": "nɨngtsa",
+        "english": "livestock/animals"
+      },
+      {
+        "dza": "tso",
+        "english": "snake"
+      },
+      {
+        "dza": "nɨngpungga",
+        "english": "sheep"
+      },
+      {
+        "dza": "tantswĩ",
+        "english": "wolf"
+      },
+      {
+        "dza": "hyɨng",
+        "english": "small fish"
+      },
+      {
+        "dza": "tso",
+        "english": "snake (confirmed)"
+      },
+      {
+        "dza": "jə̥́ / jə̥m̀",
+        "english": "animal (general)"
+      },
+      {
+        "dza": "ɲwɛ́",
+        "english": "cobra"
+      },
+      {
+        "dza": "sɔ́sɔ̀",
+        "english": "egret"
+      },
+      {
+        "dza": "fjṳ́",
+        "english": "porcupine (confirmed)"
+      },
+      {
+        "dza": "kwə́ŋ",
+        "english": "tortoise"
+      },
+      {
+        "dza": "nɑ̌ndə̀ŋ",
+        "english": "spider"
+      },
+      {
+        "dza": "tsɨ̀lɛ̂",
+        "english": "rabbit"
+      },
+      {
+        "dza": "tswɔ̄",
+        "english": "hyena"
+      },
+      {
+        "dza": "mɔ̄",
+        "english": "python"
+      },
+      {
+        "dza": "dʒɑ́",
+        "english": "mosquito"
+      },
+      {
+        "dza": "ɲɨ̌ɲɨ̄",
+        "english": "owl"
+      },
+      {
+        "dza": "ɥ̥ɛ̀",
+        "english": "snail"
+      },
+      {
+        "dza": "ɥ̥ṳ́",
+        "english": "earthworm"
+      },
+      {
+        "dza": "kɨ̀ŋkɔ̂",
+        "english": "raven"
+      },
+      {
+        "dza": "kə̄ŋ",
+        "english": "crab"
+      }
+    ],
+    "nature": [
+      {
+        "dza": "fíí",
+        "english": "sun"
+      },
+      {
+        "dza": "hwì / hwí",
+        "english": "moon"
+      },
+      {
+        "dza": "ndzɛN",
+        "english": "star"
+      },
+      {
+        "dza": "mɨng / mmEN",
+        "english": "water"
+      },
+      {
+        "dza": "mmwENà",
+        "english": "rain"
+      },
+      {
+        "dza": "djwɛ / te",
+        "english": "stone/mountain"
+      },
+      {
+        "dza": "hywàà / hywà / hywa",
+        "english": "sand/country/land"
+      },
+      {
+        "dza": "tshɛ",
+        "english": "cloud"
+      },
+      {
+        "dza": "ühwìì",
+        "english": "smoke"
+      },
+      {
+        "dza": "dʒwaà / dzwa",
+        "english": "fire"
+      },
+      {
+        "dza": "foo dʒwaa",
+        "english": "ashes"
+      },
+      {
+        "dza": "té / téé",
+        "english": "mountain/hill"
+      },
+      {
+        "dza": "kåå / kə́",
+        "english": "tree"
+      },
+      {
+        "dza": "fe",
+        "english": "fig tree"
+      },
+      {
+        "dza": "nEN yaN kɔ / yəng",
+        "english": "leaf"
+      },
+      {
+        "dza": "hyween kɔ",
+        "english": "root"
+      },
+      {
+        "dza": "nEN",
+        "english": "seed"
+      },
+      {
+        "dza": "hú",
+        "english": "grass"
+      },
+      {
+        "dza": "nyívī",
+        "english": "morning"
+      },
+      {
+        "dza": "vɨ / vi",
+        "english": "day"
+      },
+      {
+        "dza": "mvì / nvi",
+        "english": "night"
+      },
+      {
+        "dza": "do / dò",
+        "english": "yesterday"
+      },
+      {
+        "dza": "ywa",
+        "english": "wind"
+      },
+      {
+        "dza": "dzwe",
+        "english": "sky/heaven/above"
+      },
+      {
+        "dza": "bwabu",
+        "english": "well (water)"
+      },
+      {
+        "dza": "nyigũ",
+        "english": "spring/fountain"
+      },
+      {
+        "dza": "Fangwa",
+        "english": "world"
+      },
+      {
+        "dza": "fahu",
+        "english": "wilderness/desert"
+      },
+      {
+        "dza": "fanɨng",
+        "english": "field/farm"
+      },
+      {
+        "dza": "nɨhyã",
+        "english": "road/way/path"
+      },
+      {
+        "dza": "bɨ̀ŋhṳ̄",
+        "english": "bush/wilderness"
+      },
+      {
+        "dza": "kwə́ŋ (shadow)",
+        "english": "shadow"
+      },
+      {
+        "dza": "gɑ̀fɨ̀",
+        "english": "thunder (confirmed)"
+      },
+      {
+        "dza": "ŋwɛ́",
+        "english": "river"
+      },
+      {
+        "dza": "nɨ̀jɑ̥̀",
+        "english": "road (IPA confirmed)"
+      },
+      {
+        "dza": "hɑ́",
+        "english": "year"
+      },
+      {
+        "dza": "bə̀ŋ",
+        "english": "tomorrow"
+      },
+      {
+        "dza": "dʒɛ̀nɨ́",
+        "english": "today (IPA confirmed)"
+      },
+      {
+        "dza": "ɥɑ́ (wind)",
+        "english": "wind (confirmed)"
+      },
+      {
+        "dza": "ɲwɔ̄twə́ŋ",
+        "english": "honey"
+      }
+    ],
+    "food_materials": [
+      {
+        "dza": "nɨ̀ŋmari / nɨ́ŋmárí",
+        "english": "rice"
+      },
+      {
+        "dza": "nɨ̀ŋyì",
+        "english": "beans"
+      },
+      {
+        "dza": "ihyuɛ",
+        "english": "maize"
+      },
+      {
+        "dza": "wɛ",
+        "english": "yam"
+      },
+      {
+        "dza": "kə́ntúŋ",
+        "english": "sugar"
+      },
+      {
+        "dza": "nywì / nnwi",
+        "english": "oil"
+      },
+      {
+        "dza": "tʃúkwɛ́",
+        "english": "salt"
+      },
+      {
+        "dza": "nyám / hnyɔ̃",
+        "english": "meat/flesh"
+      },
+      {
+        "dza": "yə́mwuì",
+        "english": "flour"
+      },
+      {
+        "dza": "ɥà",
+        "english": "soup"
+      },
+      {
+        "dza": "mɨng inabi",
+        "english": "wine (water of grapes)"
+      },
+      {
+        "dza": "nɨngtang",
+        "english": "food"
+      },
+      {
+        "dza": "nɨngpɨ̃",
+        "english": "crops/harvest"
+      },
+      {
+        "dza": "kumpa",
+        "english": "bread/loaf"
+      },
+      {
+        "dza": "Mana",
+        "english": "manna"
+      },
+      {
+        "dza": "mumu",
+        "english": "leftover pieces/crumbs"
+      },
+      {
+        "dza": "mɨ̄",
+        "english": "beer/local brew"
+      },
+      {
+        "dza": "nɨ́ŋtsɛ̄",
+        "english": "bambara nuts"
+      },
+      {
+        "dza": "nɨ́ŋtsɛ̄ (groundnuts)",
+        "english": "groundnuts/peanuts"
+      },
+      {
+        "dza": "mwɨ́",
+        "english": "guinea corn/sorghum"
+      },
+      {
+        "dza": "ɨ̀ʍɛ̀",
+        "english": "maize (IPA confirmed)"
+      },
+      {
+        "dza": "lɔ̄",
+        "english": "gruel/porridge"
+      },
+      {
+        "dza": "kə́lə̀kṳ́",
+        "english": "sweet potatoes (confirmed)"
+      },
+      {
+        "dza": "wɛ (cassava)",
+        "english": "cassava"
+      }
+    ],
+    "places_objects": [
+      {
+        "dza": "və̀ / və",
+        "english": "house"
+      },
+      {
+        "dza": "tàŋ / tang",
+        "english": "house/room (inside)"
+      },
+      {
+        "dza": "tanvə",
+        "english": "house (of father/God)"
+      },
+      {
+        "dza": "lòmwɛ́ / lomwɛ",
+        "english": "market"
+      },
+      {
+        "dza": "kwə̀ / kwə",
+        "english": "church"
+      },
+      {
+        "dza": "Kwə Fi",
+        "english": "temple (house of God)"
+      },
+      {
+        "dza": "pɨ̄sahú",
+        "english": "school"
+      },
+      {
+        "dza": "pɨ̄pakú",
+        "english": "mosque"
+      },
+      {
+        "dza": "fə̀nɨ́ŋ / fənɨng",
+        "english": "farm"
+      },
+      {
+        "dza": "də̀ró / dəro",
+        "english": "book"
+      },
+      {
+        "dza": "Dəro Lenwa / Dəlo",
+        "english": "Book of the Law/Scripture"
+      },
+      {
+        "dza": "bì",
+        "english": "metal"
+      },
+      {
+        "dza": "ʃə́",
+        "english": "pot"
+      },
+      {
+        "dza": "bantang",
+        "english": "water pot/jar"
+      },
+      {
+        "dza": "dzɔ̃",
+        "english": "water pot (personal)"
+      },
+      {
+        "dza": "pɨ̃",
+        "english": "hoe"
+      },
+      {
+        "dza": "bè",
+        "english": "rope"
+      },
+      {
+        "dza": "kəakulɨ",
+        "english": "chair"
+      },
+      {
+        "dza": "lwēŋ",
+        "english": "canopy"
+      },
+      {
+        "dza": "mō",
+        "english": "spear"
+      },
+      {
+        "dza": "ìlə̀ŋ",
+        "english": "calabash"
+      },
+      {
+        "dza": "sede",
+        "english": "money/coins"
+      },
+      {
+        "dza": "hywe",
+        "english": "table"
+      },
+      {
+        "dza": "nyəle",
+        "english": "whip"
+      },
+      {
+        "dza": "kulɨ",
+        "english": "place/dwelling"
+      },
+      {
+        "dza": "pɨbi",
+        "english": "here/this place"
+      },
+      {
+        "dza": "nɨnglang",
+        "english": "wedding feast/celebration"
+      },
+      {
+        "dza": "vɔ mɨng",
+        "english": "pool/pond"
+      },
+      {
+        "dza": "lwang",
+        "english": "porch/colonnade"
+      },
+      {
+        "dza": "nwakwə",
+        "english": "gate/door"
+      },
+      {
+        "dza": "tsəlɨ nɨngpungga",
+        "english": "sheepfold"
+      },
+      {
+        "dza": "kwəsəku",
+        "english": "synagogue"
+      },
+      {
+        "dza": "kute",
+        "english": "mount/hill (Olives)"
+      },
+      {
+        "dza": "nvɔ",
+        "english": "pool (Siloam)"
+      },
+      {
+        "dza": "gə̃lɨkə",
+        "english": "cross (crucifixion)"
+      },
+      {
+        "dza": "nɨngpɨfa",
+        "english": "outside/open area"
+      },
+      {
+        "dza": "lwang Sulemanu",
+        "english": "Solomon's Colonnade"
+      },
+      {
+        "dza": "pɨfa",
+        "english": "outside"
+      },
+      {
+        "dza": "tangsə",
+        "english": "inside/among"
+      },
+      {
+        "dza": "dʒɔ̀ (calabash)",
+        "english": "calabash"
+      },
+      {
+        "dza": "lɔ̀ (basket)",
+        "english": "basket"
+      },
+      {
+        "dza": "sɑ́",
+        "english": "carving axe"
+      },
+      {
+        "dza": "tswɔ̄ (mortar)",
+        "english": "mortar (grinding)"
+      },
+      {
+        "dza": "ɲɨ̄ (millstone)",
+        "english": "millstone"
+      },
+      {
+        "dza": "bwṳ̄ (spear)",
+        "english": "spear (IPA confirmed)"
+      },
+      {
+        "dza": "nɨ̀gɨ̀ (shield)",
+        "english": "shield"
+      },
+      {
+        "dza": "hṳ́ (shoe)",
+        "english": "shoe"
+      },
+      {
+        "dza": "fɨ̄ (ring)",
+        "english": "ring (jewelry)"
+      },
+      {
+        "dza": "kɑ́ntwə̀ŋ",
+        "english": "bow (weapon)"
+      },
+      {
+        "dza": "bṳ́tʃɨ́",
+        "english": "arrow"
+      },
+      {
+        "dza": "dəŋ (drum)",
+        "english": "drum (confirmed)"
+      },
+      {
+        "dza": "bwɑ̀mɨ́ŋ",
+        "english": "well (water, IPA confirmed)"
+      }
+    ],
+    "colors": [
+      {
+        "dza": "kahyɛ / hyə̃̀ / lɔ́",
+        "english": "red"
+      },
+      {
+        "dza": "kə̀bì / bí",
+        "english": "black"
+      },
+      {
+        "dza": "fɛ / kəsɛ́",
+        "english": "white"
+      },
+      {
+        "dza": "kaa mmEN hù",
+        "english": "green (color of water)"
+      }
+    ],
+    "adjectives": [
+      {
+        "dza": "àhu / ahu",
+        "english": "new"
+      },
+      {
+        "dza": "àpɨ̀kə́ŋ / pikang",
+        "english": "good/nice"
+      },
+      {
+        "dza": "kànkə́ / akã́ / akã",
+        "english": "big/large"
+      },
+      {
+        "dza": "fyɛni / tswànì",
+        "english": "small"
+      },
+      {
+        "dza": "àfɨ̃̀lɨ́",
+        "english": "long"
+      },
+      {
+        "dza": "kũ̀kũ̀",
+        "english": "short"
+      },
+      {
+        "dza": "àmwílɨ́ / mwílɨ́",
+        "english": "fat/heavy"
+      },
+      {
+        "dza": "jèfɨləŋ",
+        "english": "light (weight)"
+      },
+      {
+        "dza": "àtsá",
+        "english": "hard"
+      },
+      {
+        "dza": "bwídzwə́dzwə́",
+        "english": "soft"
+      },
+      {
+        "dza": "mwəhe",
+        "english": "beautiful"
+      },
+      {
+        "dza": "kwílɨ / kwi",
+        "english": "old"
+      },
+      {
+        "dza": "fĩ̌",
+        "english": "tall"
+      },
+      {
+        "dza": "dzwi",
+        "english": "deep"
+      },
+      {
+        "dza": "lalɨ",
+        "english": "good/well/healthy"
+      },
+      {
+        "dza": "pyɨnɨng",
+        "english": "evil/wicked"
+      },
+      {
+        "dza": "akəng / akang",
+        "english": "true/real"
+      },
+      {
+        "dza": "achɛ̃",
+        "english": "so much/greatly"
+      },
+      {
+        "dza": "dodo",
+        "english": "only/unique"
+      },
+      {
+        "dza": "tsɨng",
+        "english": "one/single/only"
+      },
+      {
+        "dza": "dzwinɨng",
+        "english": "crazy/mad"
+      },
+      {
+        "dza": "gbəbang",
+        "english": "grown up/adult"
+      },
+      {
+        "dza": "kĩlɨ",
+        "english": "holy"
+      },
+      {
+        "dza": "a kã",
+        "english": "big/great/old"
+      },
+      {
+        "dza": "tswəni",
+        "english": "short/little (time)"
+      },
+      {
+        "dza": "bubu",
+        "english": "early (morning)"
+      },
+      {
+        "dza": "hona",
+        "english": "barren"
+      },
+      {
+        "dza": "kywi",
+        "english": "old/elderly"
+      },
+      {
+        "dza": "pəpi / pəpɨ",
+        "english": "quickly/soon/fast"
+      },
+      {
+        "dza": "kɔ̃kɔ̃",
+        "english": "loud/loudly"
+      },
+      {
+        "dza": "a kĩlɨ (adj)",
+        "english": "holy/sacred"
+      },
+      {
+        "dza": "a tsalɨ",
+        "english": "mighty/powerful"
+      },
+      {
+        "dza": "alalɨ",
+        "english": "good (news)"
+      },
+      {
+        "dza": "chĩhywa",
+        "english": "orderly/in order"
+      },
+      {
+        "dza": "ɑ̀bɛ̄",
+        "english": "bad/evil (IPA)"
+      },
+      {
+        "dza": "ɲṳ̌",
+        "english": "bitter"
+      },
+      {
+        "dza": "bɨ̄ (black IPA)",
+        "english": "black (IPA confirmed)"
+      },
+      {
+        "dza": "fɨ̄ kɔ",
+        "english": "white (IPA confirmed)"
+      },
+      {
+        "dza": "jɛ̥̄",
+        "english": "red (IPA confirmed)"
+      },
+      {
+        "dza": "tɑ́ (cold)",
+        "english": "cold (IPA confirmed)"
+      },
+      {
+        "dza": "lɛ́ (sharp)",
+        "english": "sharp"
+      },
+      {
+        "dza": "jɔ̀ (thick)",
+        "english": "thick"
+      },
+      {
+        "dza": "kpə́nə́ŋnə́ŋ",
+        "english": "thin"
+      },
+      {
+        "dza": "pjə̀ŋ",
+        "english": "wide"
+      },
+      {
+        "dza": "tʃɨ̀ (straight)",
+        "english": "straight"
+      },
+      {
+        "dza": "kṳ́lə̀lə̀",
+        "english": "sweet"
+      },
+      {
+        "dza": "ŋə́ (sour)",
+        "english": "sour"
+      },
+      {
+        "dza": "ɲɛ̂ (rotten)",
+        "english": "rotten"
+      },
+      {
+        "dza": "lwɛ̀lwɛ̀",
+        "english": "warm/lukewarm"
+      }
+    ],
+    "abstract_nouns": [
+      {
+        "dza": "sùkù",
+        "english": "shame"
+      },
+      {
+        "dza": "yìdí / yidi",
+        "english": "love/desire/will"
+      },
+      {
+        "dza": "nyìtə̀",
+        "english": "peace"
+      },
+      {
+        "dza": "pwátʃí",
+        "english": "anger"
+      },
+      {
+        "dza": "pwəlɨ",
+        "english": "wrath"
+      },
+      {
+        "dza": "lālɨ́",
+        "english": "happiness"
+      },
+      {
+        "dza": "mwəhe",
+        "english": "beauty"
+      },
+      {
+        "dza": "ìbè / ibe",
+        "english": "poverty/suffering/labor"
+      },
+      {
+        "dza": "hũlɨ",
+        "english": "life"
+      },
+      {
+        "dza": "akəlɨ",
+        "english": "light"
+      },
+      {
+        "dza": "tangkuchi",
+        "english": "darkness"
+      },
+      {
+        "dza": "kãlɨ / kãli",
+        "english": "glory/joy"
+      },
+      {
+        "dza": "hĩkang",
+        "english": "grace/fullness"
+      },
+      {
+        "dza": "bi anɨng",
+        "english": "truth"
+      },
+      {
+        "dza": "pɨchipɨ",
+        "english": "will/purpose"
+      },
+      {
+        "dza": "tsɨkunɨng",
+        "english": "right/authority"
+      },
+      {
+        "dza": "kɨtə / kitə",
+        "english": "judgment/condemnation"
+      },
+      {
+        "dza": "jilɨ",
+        "english": "salvation"
+      },
+      {
+        "dza": "nɨngshi",
+        "english": "sickness/disease"
+      },
+      {
+        "dza": "dzung",
+        "english": "name"
+      },
+      {
+        "dza": "nwatũ",
+        "english": "work/task/will"
+      },
+      {
+        "dza": "nɨng abe",
+        "english": "sin/evil"
+      },
+      {
+        "dza": "tswebi",
+        "english": "love (deep)"
+      },
+      {
+        "dza": "gyədə",
+        "english": "wages/reward"
+      },
+      {
+        "dza": "lolɨ",
+        "english": "washing/purification"
+      },
+      {
+        "dza": "filu",
+        "english": "business/trading"
+      },
+      {
+        "dza": "tsəli / tsəlɨ",
+        "english": "marriage/wedding"
+      },
+      {
+        "dza": "holɨ",
+        "english": "tiredness/weariness"
+      },
+      {
+        "dza": "tɨtɛ",
+        "english": "always/usually"
+      },
+      {
+        "dza": "nɨngvi",
+        "english": "demon/evil spirit"
+      },
+      {
+        "dza": "ikãnyi",
+        "english": "traitor/devil"
+      },
+      {
+        "dza": "Nɨnɨngvi",
+        "english": "the Devil/Satan"
+      },
+      {
+        "dza": "ayibe / ayibew",
+        "english": "sin/guilt"
+      },
+      {
+        "dza": "shə",
+        "english": "slave/slavery"
+      },
+      {
+        "dza": "mwənshə",
+        "english": "servant/slave"
+      },
+      {
+        "dza": "nwayung",
+        "english": "lie/falsehood"
+      },
+      {
+        "dza": "sambe",
+        "english": "honor/praise"
+      },
+      {
+        "dza": "yənwa",
+        "english": "glory/honor"
+      },
+      {
+        "dza": "pɨnyi",
+        "english": "descendant/lineage"
+      },
+      {
+        "dza": "nɨngtswe sɨbi / nɨng bisɨ",
+        "english": "miracle/sign"
+      },
+      {
+        "dza": "za",
+        "english": "judgment"
+      },
+      {
+        "dza": "kəlo",
+        "english": "basket"
+      },
+      {
+        "dza": "bɨbɔ",
+        "english": "mud"
+      },
+      {
+        "dza": "ywakwang",
+        "english": "cold season/winter"
+      },
+      {
+        "dza": "nwa ywakwang",
+        "english": "cold weather"
+      },
+      {
+        "dza": "nyɔ pɨ akəlɨ",
+        "english": "daytime (lit. time of light)"
+      },
+      {
+        "dza": "pɨ nvi",
+        "english": "nighttime"
+      },
+      {
+        "dza": "ichilɨ",
+        "english": "parents"
+      },
+      {
+        "dza": "sɨfɨ̃",
+        "english": "pretense/show"
+      },
+      {
+        "dza": "lɨle / lele",
+        "english": "freedom"
+      },
+      {
+        "dza": "nyinasɨ hu",
+        "english": "new teaching"
+      },
+      {
+        "dza": "feki",
+        "english": "another way/fence"
+      },
+      {
+        "dza": "tsalɨ",
+        "english": "power/strength"
+      },
+      {
+        "dza": "tũ",
+        "english": "grave/tomb"
+      },
+      {
+        "dza": "nwa bwa",
+        "english": "entrance of tomb"
+      },
+      {
+        "dza": "nɨnglwe",
+        "english": "sleep (euphemism for death)"
+      },
+      {
+        "dza": "nywi",
+        "english": "perfume/oil/ointment"
+      },
+      {
+        "dza": "naldi",
+        "english": "nard (spikenard)"
+      },
+      {
+        "dza": "tsaku",
+        "english": "hair (head hair)"
+      },
+      {
+        "dza": "kəpu",
+        "english": "feet"
+      },
+      {
+        "dza": "kəna",
+        "english": "hands"
+      },
+      {
+        "dza": "kəji",
+        "english": "waist"
+      },
+      {
+        "dza": "nɨngji (towel)",
+        "english": "towel"
+      },
+      {
+        "dza": "tasɔ",
+        "english": "basin"
+      },
+      {
+        "dza": "nɨng tswi bwa",
+        "english": "burial cloth/wrapping"
+      },
+      {
+        "dza": "mpwəchi",
+        "english": "face cloth"
+      },
+      {
+        "dza": "kũ (smell)",
+        "english": "smell/fragrance"
+      },
+      {
+        "dza": "kəvɨ̃",
+        "english": "palm branches"
+      },
+      {
+        "dza": "wande",
+        "english": "donkey (confirmed)"
+      },
+      {
+        "dza": "nwakwang",
+        "english": "shout/praise/hosanna"
+      },
+      {
+        "dza": "Shetan",
+        "english": "Satan/devil"
+      },
+      {
+        "dza": "təmwə",
+        "english": "betrayer"
+      },
+      {
+        "dza": "kulɨ a hywa / Fadə",
+        "english": "council (Sanhedrin)"
+      },
+      {
+        "dza": "tswĩlɨ",
+        "english": "dipped morsel/soaked bread"
+      },
+      {
+        "dza": "nɨng yasɨ",
+        "english": "outer garment/robe"
+      },
+      {
+        "dza": "nɨngfa",
+        "english": "openly/publicly (also clothes)"
+      },
+      {
+        "dza": "nwaji",
+        "english": "table/meal/dinner"
+      },
+      {
+        "dza": "nabwa",
+        "english": "condolence/comfort"
+      },
+      {
+        "dza": "kɔye",
+        "english": "village/town"
+      },
+      {
+        "dza": "gafɨ̃",
+        "english": "thunder"
+      },
+      {
+        "dza": "nɨng pyənɨng",
+        "english": "seed/grain"
+      },
+      {
+        "dza": "nwanɨhyã",
+        "english": "city gate"
+      },
+      {
+        "dza": "nɨhyã hywa",
+        "english": "pathway/road"
+      },
+      {
+        "dza": "nɨngtang a nandzwi",
+        "english": "evening meal/supper"
+      },
+      {
+        "dza": "tatalɨ",
+        "english": "rooster/cock"
+      },
+      {
+        "dza": "kəzɛ̃",
+        "english": "force/power"
+      },
+      {
+        "dza": "Ikwətũ Dzwe",
+        "english": "Angel from heaven"
+      },
+      {
+        "dza": "Jibrailu",
+        "english": "Gabriel (angel)"
+      },
+      {
+        "dza": "Ipenyɔnɨng Hɛ̃",
+        "english": "Most High God"
+      },
+      {
+        "dza": "Tangkwə və Fi",
+        "english": "Holy of Holies/inner temple"
+      },
+      {
+        "dza": "hywe ko ywi",
+        "english": "altar of incense"
+      },
+      {
+        "dza": "nɨngbibɨng",
+        "english": "lots (casting lots)"
+      },
+      {
+        "dza": "pɨtsapɨ",
+        "english": "greeting"
+      },
+      {
+        "dza": "kutswəmə",
+        "english": "favor/grace"
+      },
+      {
+        "dza": "kəzɛ̃ ivə",
+        "english": "throne/kingdom authority"
+      },
+      {
+        "dza": "nwatũ hyɔ̃nɨng",
+        "english": "priestly duty"
+      },
+      {
+        "dza": "nɨng hywinɨng",
+        "english": "oath/promise"
+      },
+      {
+        "dza": "nwa pɨtũpɨ",
+        "english": "prophecy/message from God"
+      },
+      {
+        "dza": "nɨng a kĩlɨ",
+        "english": "holy thing"
+      },
+      {
+        "dza": "nɨng vĩ nɨng",
+        "english": "writing tablet"
+      },
+      {
+        "dza": "mɨng inəbi",
+        "english": "strong drink/alcohol"
+      },
+      {
+        "dza": "bi a kĩlɨ",
+        "english": "holy covenant"
+      },
+      {
+        "dza": "kulɨ a pikang",
+        "english": "righteous/blameless life"
+      },
+      {
+        "dza": "nɨhyã a tã",
+        "english": "path of peace"
+      },
+      {
+        "dza": "nwa ku və bwa",
+        "english": "shadow of death"
+      },
+      {
+        "dza": "vi nwatũ",
+        "english": "days of service"
+      },
+      {
+        "dza": "pɨkũpɨ",
+        "english": "prayer/request"
+      },
+      {
+        "dza": "nwa nɨng hywinɨng",
+        "english": "ceremonial law/purification"
+      },
+      {
+        "dza": "nyɔ vi bɨ hɛ̃",
+        "english": "all their days/lifetime"
+      },
+      {
+        "dza": "dɨ yɨng",
+        "english": "vision"
+      },
+      {
+        "dza": "vi bwadzwa",
+        "english": "when the lot fell/turn of duty"
+      },
+      {
+        "dza": "kwəng",
+        "english": "spirit/inner strength"
+      },
+      {
+        "dza": "sɨbi",
+        "english": "fear/amazement"
+      },
+      {
+        "dza": "tã",
+        "english": "peace"
+      },
+      {
+        "dza": "abilɨ",
+        "english": "without fear/boldly"
+      },
+      {
+        "dza": "bəshi",
+        "english": "mercy/compassion"
+      },
+      {
+        "dza": "parkə",
+        "english": "blessing/blessed one"
+      },
+      {
+        "dza": "kang bə",
+        "english": "how blessed/fortunate"
+      },
+      {
+        "dza": "nɨng a shilɨ",
+        "english": "impossible thing"
+      },
+      {
+        "dza": "nɨng chinɨng",
+        "english": "wealthy/rich people's things"
+      },
+      {
+        "dza": "sɨ́bɨ́ / sɨ́kṳ́",
+        "english": "fear/shame"
+      },
+      {
+        "dza": "bɛ̄nɨ̀ŋ / bi anɨng",
+        "english": "truth (IPA confirmed)"
+      },
+      {
+        "dza": "bwɔ̄ / bwilɨ",
+        "english": "witchcraft"
+      },
+      {
+        "dza": "bɨ̄ / bi",
+        "english": "word/speech (confirmed)"
+      },
+      {
+        "dza": "mwɔ̄lɨ́",
+        "english": "dream"
+      },
+      {
+        "dza": "nɨ́ŋtsɑ́ (play)",
+        "english": "game/play"
+      }
+    ],
+    "verbs": [
+      {
+        "dza": "wu / wí",
+        "english": "come"
+      },
+      {
+        "dza": "tə́",
+        "english": "go"
+      },
+      {
+        "dza": "bə",
+        "english": "see/look"
+      },
+      {
+        "dza": "tsa",
+        "english": "say/said"
+      },
+      {
+        "dza": "nə / nəkə",
+        "english": "tell/told"
+      },
+      {
+        "dza": "tsɨ",
+        "english": "tell/say to someone"
+      },
+      {
+        "dza": "nwa / nwalɨ",
+        "english": "drink"
+      },
+      {
+        "dza": "taN / tàŋ / hashitə",
+        "english": "eat"
+      },
+      {
+        "dza": "mmɔ",
+        "english": "bite"
+      },
+      {
+        "dza": "djii / ba / bə̀",
+        "english": "see"
+      },
+      {
+        "dza": "lí / likə",
+        "english": "hear/believe"
+      },
+      {
+        "dza": "yiipɛ / yipɨ / yi",
+        "english": "know/recognize"
+      },
+      {
+        "dza": "lwe",
+        "english": "sleep/be sick"
+      },
+      {
+        "dza": "bwa / bwi",
+        "english": "die"
+      },
+      {
+        "dza": "yya",
+        "english": "kill"
+      },
+      {
+        "dza": "hóh / hò",
+        "english": "walk"
+      },
+      {
+        "dza": "hywã / kwII / ku",
+        "english": "sit/stay/dwell"
+      },
+      {
+        "dza": "tsɛ / pu",
+        "english": "stand"
+      },
+      {
+        "dza": "tùù / thaa / tə",
+        "english": "give"
+      },
+      {
+        "dza": "sa",
+        "english": "say (variant)"
+      },
+      {
+        "dza": "tswe",
+        "english": "write/do/perform"
+      },
+      {
+        "dza": "jí / ji",
+        "english": "wake/rise/leave"
+      },
+      {
+        "dza": "pé / pe / pelɨ",
+        "english": "pass/surpass"
+      },
+      {
+        "dza": "chí / chi",
+        "english": "find/get/dry"
+      },
+      {
+        "dza": "fì",
+        "english": "slaughter"
+      },
+      {
+        "dza": "dɨ / dɨkə",
+        "english": "take/is (copula)"
+      },
+      {
+        "dza": "wàkə́",
+        "english": "break"
+      },
+      {
+        "dza": "ngəkə",
+        "english": "ride"
+      },
+      {
+        "dza": "tenwá / tenwa",
+        "english": "announce/testify"
+      },
+      {
+        "dza": "lébí",
+        "english": "sing"
+      },
+      {
+        "dza": "dəŋ / dəng",
+        "english": "dance"
+      },
+      {
+        "dza": "tsə̀və",
+        "english": "marry"
+      },
+      {
+        "dza": "fəŋ",
+        "english": "scrape"
+      },
+      {
+        "dza": "yaalɛ",
+        "english": "fly"
+      },
+      {
+        "dza": "tũ / tũkə",
+        "english": "send/sent"
+      },
+      {
+        "dza": "kwə",
+        "english": "receive/answer"
+      },
+      {
+        "dza": "la / lakə",
+        "english": "accept/receive/reject"
+      },
+      {
+        "dza": "dzupɨ",
+        "english": "call/invite"
+      },
+      {
+        "dza": "mwə nyi / mwənyi / nyəpɨ",
+        "english": "follow"
+      },
+      {
+        "dza": "dzumə",
+        "english": "rename/call by name"
+      },
+      {
+        "dza": "bipɨ / bikə",
+        "english": "ask/question"
+      },
+      {
+        "dza": "mɛdi",
+        "english": "be able to"
+      },
+      {
+        "dza": "kədzwa",
+        "english": "reveal/explain"
+      },
+      {
+        "dza": "kəpɨ",
+        "english": "shine"
+      },
+      {
+        "dza": "tsɨkə",
+        "english": "be/become"
+      },
+      {
+        "dza": "məkə / mə",
+        "english": "make/create"
+      },
+      {
+        "dza": "tɛmə",
+        "english": "exist/come about"
+      },
+      {
+        "dza": "wi",
+        "english": "shout/cry out/chase"
+      },
+      {
+        "dza": "dzukə",
+        "english": "cry out/prepare"
+      },
+      {
+        "dza": "mwəsə",
+        "english": "rest/lean"
+      },
+      {
+        "dza": "pĩlɨ",
+        "english": "untie/loosen"
+      },
+      {
+        "dza": "ki",
+        "english": "overcome/defeat"
+      },
+      {
+        "dza": "myɛkə / myɛ",
+        "english": "become/turn/change"
+      },
+      {
+        "dza": "chikə",
+        "english": "be born"
+      },
+      {
+        "dza": "wukə",
+        "english": "came from/originated"
+      },
+      {
+        "dza": "təkə",
+        "english": "give (past)"
+      },
+      {
+        "dza": "pənyi",
+        "english": "believe/trust"
+      },
+      {
+        "dza": "tsɨnyi",
+        "english": "believe (in name)"
+      },
+      {
+        "dza": "kwələ",
+        "english": "accept/believe/understand"
+      },
+      {
+        "dza": "hyɔ̃",
+        "english": "worship"
+      },
+      {
+        "dza": "hakə",
+        "english": "dug/made"
+      },
+      {
+        "dza": "yə",
+        "english": "leave/go away"
+      },
+      {
+        "dza": "pyə / pyəkə",
+        "english": "exchange/sow/plant"
+      },
+      {
+        "dza": "ja",
+        "english": "sell"
+      },
+      {
+        "dza": "jə",
+        "english": "buy"
+      },
+      {
+        "dza": "to",
+        "english": "pour out"
+      },
+      {
+        "dza": "nyə",
+        "english": "chase/drive out"
+      },
+      {
+        "dza": "kũ",
+        "english": "beg/plead"
+      },
+      {
+        "dza": "jinɨng / ba nɨng",
+        "english": "harvest/reap"
+      },
+      {
+        "dza": "shikə",
+        "english": "work/labor"
+      },
+      {
+        "dza": "mimi",
+        "english": "build/raise up"
+      },
+      {
+        "dza": "de",
+        "english": "destroy/tear down"
+      },
+      {
+        "dza": "kipu",
+        "english": "lift up/raise"
+      },
+      {
+        "dza": "pənkə",
+        "english": "taste"
+      },
+      {
+        "dza": "ywe",
+        "english": "keep/save"
+      },
+      {
+        "dza": "tsasə",
+        "english": "argue/dispute"
+      },
+      {
+        "dza": "bɛlɨ",
+        "english": "rejoice"
+      },
+      {
+        "dza": "jiku",
+        "english": "be healed/live/recover"
+      },
+      {
+        "dza": "tɨng",
+        "english": "be sick/hurt"
+      },
+      {
+        "dza": "dəbwa",
+        "english": "die/about to die"
+      },
+      {
+        "dza": "lɨng",
+        "english": "be thirsty"
+      },
+      {
+        "dza": "enyi",
+        "english": "finish/complete"
+      },
+      {
+        "dza": "ochi",
+        "english": "run to quickly"
+      },
+      {
+        "dza": "kangtswi",
+        "english": "trust/rely on"
+      },
+      {
+        "dza": "gbə...sɔ",
+        "english": "choose/appoint"
+      },
+      {
+        "dza": "vĩkə",
+        "english": "write/record (past)"
+      },
+      {
+        "dza": "pang",
+        "english": "see/enter"
+      },
+      {
+        "dza": "tabɨ",
+        "english": "show"
+      },
+      {
+        "dza": "mwə",
+        "english": "take/follow (path)"
+      },
+      {
+        "dza": "dzwəwɛ",
+        "english": "travel/journey"
+      },
+      {
+        "dza": "fənahywa",
+        "english": "decrease/become less"
+      },
+      {
+        "dza": "yikədi",
+        "english": "want/wish/desire"
+      },
+      {
+        "dza": "tɨng nɨngshi",
+        "english": "heal sickness"
+      },
+      {
+        "dza": "tsɨpu",
+        "english": "stand up/get up"
+      },
+      {
+        "dza": "kwa",
+        "english": "carry/pick up"
+      },
+      {
+        "dza": "lo nɨng",
+        "english": "wash (eyes/face)"
+      },
+      {
+        "dza": "bwɛ",
+        "english": "spit/make mud"
+      },
+      {
+        "dza": "nu",
+        "english": "apply/rub/smear"
+      },
+      {
+        "dza": "ywɛ hywa",
+        "english": "bend down/kneel"
+      },
+      {
+        "dza": "gbə",
+        "english": "hit/stone/throw stones"
+      },
+      {
+        "dza": "gbəkə",
+        "english": "catch (in the act)"
+      },
+      {
+        "dza": "yə bwa / yəlɨ",
+        "english": "kill/destroy"
+      },
+      {
+        "dza": "nyadi",
+        "english": "persecute"
+      },
+      {
+        "dza": "pyɛ̃chi",
+        "english": "circumcise"
+      },
+      {
+        "dza": "kinwakwang",
+        "english": "accuse"
+      },
+      {
+        "dza": "kwɛ",
+        "english": "surround"
+      },
+      {
+        "dza": "fɨnwa",
+        "english": "deceive"
+      },
+      {
+        "dza": "ywe",
+        "english": "hide"
+      },
+      {
+        "dza": "hywi",
+        "english": "run away/flee"
+      },
+      {
+        "dza": "pĩ",
+        "english": "climb into/board"
+      },
+      {
+        "dza": "hyã",
+        "english": "cross over"
+      },
+      {
+        "dza": "pwɔ",
+        "english": "gather/collect"
+      },
+      {
+        "dza": "tsə",
+        "english": "distribute/share"
+      },
+      {
+        "dza": "tang",
+        "english": "eat (confirmed)"
+      },
+      {
+        "dza": "jə",
+        "english": "buy"
+      },
+      {
+        "dza": "sa",
+        "english": "read/study"
+      },
+      {
+        "dza": "nyina / nyi nasɨ",
+        "english": "teach"
+      },
+      {
+        "dza": "bibi",
+        "english": "fear/be afraid"
+      },
+      {
+        "dza": "bɛ / bɛlɨ",
+        "english": "happy/rejoice"
+      },
+      {
+        "dza": "kwəsə",
+        "english": "meet/find"
+      },
+      {
+        "dza": "twe",
+        "english": "take/snatch"
+      },
+      {
+        "dza": "yɔ",
+        "english": "blaspheme/insult God"
+      },
+      {
+        "dza": "kũnɨng / kũkənɨng",
+        "english": "beg (for alms)"
+      },
+      {
+        "dza": "pəku sɨ",
+        "english": "push away/reject/drive out"
+      },
+      {
+        "dza": "pehywa",
+        "english": "bow down/prostrate"
+      },
+      {
+        "dza": "fɨ",
+        "english": "pull/draw (someone)"
+      },
+      {
+        "dza": "nəbi",
+        "english": "speak/discuss/preach"
+      },
+      {
+        "dza": "kã Fi",
+        "english": "thank God/bless"
+      },
+      {
+        "dza": "tsasə nwa",
+        "english": "argue/dispute"
+      },
+      {
+        "dza": "nyəmwi",
+        "english": "remain/be left over"
+      },
+      {
+        "dza": "bangkə",
+        "english": "perish/be lost/spoil"
+      },
+      {
+        "dza": "ya",
+        "english": "appoint/make (someone king)"
+      },
+      {
+        "dza": "kyã",
+        "english": "approach/draw near"
+      },
+      {
+        "dza": "ngə",
+        "english": "row (a boat)"
+      },
+      {
+        "dza": "hũ",
+        "english": "live/be alive"
+      },
+      {
+        "dza": "hwə",
+        "english": "be thirsty (never thirst)"
+      },
+      {
+        "dza": "ochi",
+        "english": "run to quickly"
+      },
+      {
+        "dza": "losə",
+        "english": "equal to"
+      },
+      {
+        "dza": "yɨlə",
+        "english": "trouble/disturb"
+      },
+      {
+        "dza": "nə za",
+        "english": "judge/pass judgment"
+      },
+      {
+        "dza": "yi be...sɨ nyitɨngku vi",
+        "english": "raise up on last day"
+      },
+      {
+        "dza": "kang hywibi",
+        "english": "keep/obey (law)"
+      },
+      {
+        "dza": "hywã nasɨ",
+        "english": "leave/abandon"
+      },
+      {
+        "dza": "yiyi / yi tũ",
+        "english": "rise again/resurrect"
+      },
+      {
+        "dza": "tata",
+        "english": "cry/weep"
+      },
+      {
+        "dza": "ta gə̃mi",
+        "english": "shed tears (weep)"
+      },
+      {
+        "dza": "tswi",
+        "english": "bury"
+      },
+      {
+        "dza": "chwi",
+        "english": "bury (variant)"
+      },
+      {
+        "dza": "lwe nɨngshi",
+        "english": "be sick/ill"
+      },
+      {
+        "dza": "bangkə bang",
+        "english": "rot/decay/stink"
+      },
+      {
+        "dza": "se",
+        "english": "pour/anoint"
+      },
+      {
+        "dza": "lo kəpu",
+        "english": "wash feet"
+      },
+      {
+        "dza": "pwə (Shetan)",
+        "english": "enter/possess (demon)"
+      },
+      {
+        "dza": "tswesəbi",
+        "english": "love one another"
+      },
+      {
+        "dza": "kwa pɨ yəlɨ",
+        "english": "plot to kill"
+      },
+      {
+        "dza": "tsa nabwa",
+        "english": "comfort/console"
+      },
+      {
+        "dza": "dzupɨ be wi",
+        "english": "call loudly/shout"
+      },
+      {
+        "dza": "ji tũ",
+        "english": "come out (of grave)"
+      },
+      {
+        "dza": "pĩ nɨng",
+        "english": "remove/unwrap"
+      },
+      {
+        "dza": "ke te",
+        "english": "roll stone"
+      },
+      {
+        "dza": "holə",
+        "english": "get up quickly/rush"
+      },
+      {
+        "dza": "zɨngpu",
+        "english": "stay/remain/wait"
+      },
+      {
+        "dza": "lɨla / lakə",
+        "english": "lose/perish"
+      },
+      {
+        "dza": "kang hũlɨ",
+        "english": "hold onto life/cling"
+      },
+      {
+        "dza": "fĩ lopɨ",
+        "english": "scatter"
+      },
+      {
+        "dza": "nə nwa bwilɨ",
+        "english": "prophesy about death"
+      },
+      {
+        "dza": "ki nwakwang",
+        "english": "shout praise"
+      },
+      {
+        "dza": "nəsələ",
+        "english": "murmur/grumble"
+      },
+      {
+        "dza": "kye",
+        "english": "leave alone/let be"
+      },
+      {
+        "dza": "wanyi",
+        "english": "warn/tell beforehand"
+      },
+      {
+        "dza": "jibwi",
+        "english": "betray/turn against"
+      },
+      {
+        "dza": "dɨ na / tə na",
+        "english": "hand over/give to"
+      },
+      {
+        "dza": "ya nɨng yasɨ",
+        "english": "take off outer garment"
+      },
+      {
+        "dza": "tsə kəji",
+        "english": "wrap around waist"
+      },
+      {
+        "dza": "se mɨng",
+        "english": "pour water"
+      },
+      {
+        "dza": "pə sɨ ywa",
+        "english": "dip (bread)"
+      },
+      {
+        "dza": "we mɨng",
+        "english": "bathe/wash (full body)"
+      },
+      {
+        "dza": "pyənɨng",
+        "english": "sow/plant (seed)"
+      },
+      {
+        "dza": "kə̃",
+        "english": "measure/worth"
+      },
+      {
+        "dza": "lakə fɨ",
+        "english": "steal from"
+      },
+      {
+        "dza": "tsɨbi",
+        "english": "reserve/keep for"
+      },
+      {
+        "dza": "dɔsɔ",
+        "english": "decide/determine"
+      },
+      {
+        "dza": "dɨ ywa",
+        "english": "be pregnant"
+      },
+      {
+        "dza": "chi wə (baby)",
+        "english": "kick/leap (baby in womb)"
+      },
+      {
+        "dza": "ko ywi",
+        "english": "burn incense"
+      },
+      {
+        "dza": "hywikə",
+        "english": "swore/promised (oath)"
+      },
+      {
+        "dza": "kwəsələ",
+        "english": "make covenant/agreement"
+      },
+      {
+        "dza": "hokə na / hona",
+        "english": "be barren"
+      },
+      {
+        "dza": "kywi",
+        "english": "be old/aged"
+      },
+      {
+        "dza": "yabwi",
+        "english": "be frightened/terrified"
+      },
+      {
+        "dza": "kyɛ̃",
+        "english": "wonder/puzzle over"
+      },
+      {
+        "dza": "gba",
+        "english": "redeem/save/rescue"
+      },
+      {
+        "dza": "le na / wa...le na",
+        "english": "deliver/set free/rescue"
+      },
+      {
+        "dza": "pyɛ̃chi",
+        "english": "circumcise (confirmed)"
+      },
+      {
+        "dza": "kũ Fi",
+        "english": "pray to God"
+      },
+      {
+        "dza": "lwe ivə",
+        "english": "reign as king"
+      },
+      {
+        "dza": "gã",
+        "english": "be amazed"
+      },
+      {
+        "dza": "tsɨhywa",
+        "english": "be astonished"
+      },
+      {
+        "dza": "pələ",
+        "english": "help/assist"
+      },
+      {
+        "dza": "chĩ",
+        "english": "remember/not forget"
+      },
+      {
+        "dza": "nyibi",
+        "english": "think/ponder/wonder"
+      },
+      {
+        "dza": "kəta",
+        "english": "be engaged/betrothed"
+      },
+      {
+        "dza": "yatə",
+        "english": "scatter/bring down"
+      },
+      {
+        "dza": "tsə ywa",
+        "english": "fill (hungry people)"
+      },
+      {
+        "dza": "nyə...tə be na anfa",
+        "english": "send away empty"
+      },
+      {
+        "dza": "nə nwa pɨtũpɨ",
+        "english": "prophesy/speak God's word"
+      },
+      {
+        "dza": "myɛ nyi",
+        "english": "turn (hearts)"
+      },
+      {
+        "dza": "myɛ pwəchi",
+        "english": "turn faces/hearts"
+      },
+      {
+        "dza": "ochi Itwebɨ",
+        "english": "go before the Lord"
+      },
+      {
+        "dza": "mə nɨhyã",
+        "english": "prepare the way"
+      },
+      {
+        "dza": "ki mə (Kwang)",
+        "english": "overshadow/cover"
+      },
+      {
+        "dza": "fe (nwa)",
+        "english": "be unable to speak/mute"
+      },
+      {
+        "dza": "nəbi be kəna",
+        "english": "communicate with hands/sign"
+      },
+      {
+        "dza": "enyi hywa",
+        "english": "forgive sins"
+      },
+      {
+        "dza": "kəpɨ tsɨ",
+        "english": "shine upon/give light"
+      },
+      {
+        "dza": "tswe hywĩhywĩ",
+        "english": "stay for months"
+      },
+      {
+        "dza": "chi kənwa nəbi lo",
+        "english": "be speechless/unable to speak"
+      },
+      {
+        "dza": "bɨ́ / bipɨ",
+        "english": "ask (confirmed)"
+      },
+      {
+        "dza": "mə́",
+        "english": "laugh"
+      },
+      {
+        "dza": "lɑ́",
+        "english": "refuse/reject"
+      },
+      {
+        "dza": "kə́",
+        "english": "cut"
+      },
+      {
+        "dza": "tə́ŋ",
+        "english": "eat (IPA confirmed)"
+      },
+      {
+        "dza": "nə́",
+        "english": "grind"
+      },
+      {
+        "dza": "pɨ̀",
+        "english": "split"
+      },
+      {
+        "dza": "kə́m",
+        "english": "squeeze"
+      },
+      {
+        "dza": "pə̀",
+        "english": "stab"
+      },
+      {
+        "dza": "tsə́",
+        "english": "tie/bind"
+      },
+      {
+        "dza": "wɑ́",
+        "english": "throw"
+      },
+      {
+        "dza": "bɨ́ŋ",
+        "english": "twist"
+      },
+      {
+        "dza": "mɛ̄",
+        "english": "swallow"
+      },
+      {
+        "dza": "ṳ́",
+        "english": "suck"
+      },
+      {
+        "dza": "tɑ́",
+        "english": "shoot"
+      },
+      {
+        "dza": "nṳ́",
+        "english": "rub/apply"
+      },
+      {
+        "dza": "pɑ́",
+        "english": "float"
+      },
+      {
+        "dza": "sɛ̄",
+        "english": "flow"
+      },
+      {
+        "dza": "mjɛ̄",
+        "english": "turn (confirmed)"
+      },
+      {
+        "dza": "hɛ́",
+        "english": "swell"
+      },
+      {
+        "dza": "ɲə́",
+        "english": "wet/soak"
+      },
+      {
+        "dza": "lṳ́",
+        "english": "wash"
+      },
+      {
+        "dza": "pɨ̄ / pĩ",
+        "english": "nail/climb (confirmed)"
+      },
+      {
+        "dza": "tswṳ̄",
+        "english": "burn"
+      },
+      {
+        "dza": "tswɔ̄",
+        "english": "bury (confirmed)"
+      },
+      {
+        "dza": "hɑ̀",
+        "english": "dig"
+      },
+      {
+        "dza": "hṳ́",
+        "english": "breathe"
+      },
+      {
+        "dza": "dʒə́",
+        "english": "vomit"
+      },
+      {
+        "dza": "kɨ̄ (wi)",
+        "english": "yell/shout"
+      },
+      {
+        "dza": "tsɨ̀ (pu)",
+        "english": "stand (confirmed)"
+      },
+      {
+        "dza": "lwɛ́",
+        "english": "lie down (confirmed)"
+      },
+      {
+        "dza": "mwɛ̄lɨ́",
+        "english": "dream"
+      },
+      {
+        "dza": "ŋwɑ́tṳ́",
+        "english": "work (noun/verb)"
+      },
+      {
+        "dza": "nɨ́ŋtsɑ́",
+        "english": "play"
+      },
+      {
+        "dza": "tswɑ̀ (greet)",
+        "english": "greet (IPA: tsɑ̤̄)"
+      },
+      {
+        "dza": "ʍɛ̄ / vwɛ̀m",
+        "english": "fight"
+      }
+    ],
+    "function_words": [
+      {
+        "dza": "bē / bè / be",
+        "english": "with/and"
+      },
+      {
+        "dza": "sɨ̀ / sɨ",
+        "english": "at/in/to (locative)"
+      },
+      {
+        "dza": "və̀ / və",
+        "english": "of/genitive marker"
+      },
+      {
+        "dza": "pɨ̀ / pɨ",
+        "english": "to (direction)"
+      },
+      {
+        "dza": "nɨ̄ / nɨ",
+        "english": "this/that/which (det/relative)"
+      },
+      {
+        "dza": "dè / de",
+        "english": "the (definite article)"
+      },
+      {
+        "dza": "lê / le",
+        "english": "that (distal) / them"
+      },
+      {
+        "dza": "n",
+        "english": "non-past tense marker / I"
+      },
+      {
+        "dza": "lò / lo",
+        "english": "negation (not)"
+      },
+      {
+        "dza": "ā",
+        "english": "genitive marker (ordinals)"
+      },
+      {
+        "dza": "yang",
+        "english": "already/completed (perfective)"
+      },
+      {
+        "dza": "yin",
+        "english": "will/future marker"
+      },
+      {
+        "dza": "ho",
+        "english": "that one/it is (identifier)"
+      },
+      {
+        "dza": "kə",
+        "english": "is (copula/identity)"
+      },
+      {
+        "dza": "bisɨ",
+        "english": "because/in order to"
+      },
+      {
+        "dza": "hɛbələ / həbələ",
+        "english": "so that/in order that"
+      },
+      {
+        "dza": "alo",
+        "english": "nor/or not"
+      },
+      {
+        "dza": "ke",
+        "english": "but/yet/whoever"
+      },
+      {
+        "dza": "bɨmpo",
+        "english": "even though/although"
+      },
+      {
+        "dza": "nasɨ",
+        "english": "through/by means of"
+      },
+      {
+        "dza": "tɔle",
+        "english": "must/it is necessary"
+      },
+      {
+        "dza": "lehɛ̃",
+        "english": "however/but"
+      },
+      {
+        "dza": "sapɨnɨ",
+        "english": "when/at the time"
+      },
+      {
+        "dza": "pɨkə sɨ wə",
+        "english": "the next day"
+      },
+      {
+        "dza": "tswa",
+        "english": "before/after/ahead"
+      },
+      {
+        "dza": "pəko",
+        "english": "before (temporal)"
+      },
+      {
+        "dza": "pəsɔ",
+        "english": "beginning/first"
+      },
+      {
+        "dza": "sɨswenɨ",
+        "english": "now/at this time"
+      },
+      {
+        "dza": "ma",
+        "english": "even/at all"
+      },
+      {
+        "dza": "aba",
+        "english": "if"
+      },
+      {
+        "dza": "kə akang",
+        "english": "truly/verily"
+      },
+      {
+        "dza": "doho",
+        "english": "likewise/same way"
+      },
+      {
+        "dza": "hywapɨnɨ",
+        "english": "under/when (temporal)"
+      },
+      {
+        "dza": "tsung",
+        "english": "together/with"
+      },
+      {
+        "dza": "na",
+        "english": "through/by/of"
+      },
+      {
+        "dza": "fə",
+        "english": "and/then"
+      },
+      {
+        "dza": "yə",
+        "english": "so/then"
+      },
+      {
+        "dza": "son / sen",
+        "english": "while/as (progressive)"
+      },
+      {
+        "dza": "ywang / yɛ",
+        "english": "not at all / emphasis"
+      },
+      {
+        "dza": "kɛ",
+        "english": "instead/rather"
+      },
+      {
+        "dza": "pɨbi",
+        "english": "here/there/at this place"
+      },
+      {
+        "dza": "kəvivi",
+        "english": "always/forever"
+      },
+      {
+        "dza": "nwachi",
+        "english": "first/earlier/before"
+      },
+      {
+        "dza": "bɨtsɨng",
+        "english": "yet/still"
+      },
+      {
+        "dza": "nyinyi",
+        "english": "self/own"
+      },
+      {
+        "dza": "nabi",
+        "english": "immediately/at once"
+      },
+      {
+        "dza": "jɛnɨ",
+        "english": "today"
+      },
+      {
+        "dza": "nandzwi",
+        "english": "evening/late afternoon"
+      },
+      {
+        "dza": "nyinvi",
+        "english": "early morning/dawn"
+      },
+      {
+        "dza": "kɨng kɨng",
+        "english": "secretly/quietly"
+      },
+      {
+        "dza": "nɨngfa",
+        "english": "openly/publicly"
+      },
+      {
+        "dza": "losə",
+        "english": "equal/same as"
+      },
+      {
+        "dza": "wewe",
+        "english": "cursed/woe"
+      },
+      {
+        "dza": "sako / sakwa",
+        "english": "if/suppose"
+      },
+      {
+        "dza": "nani",
+        "english": "before/previously/where"
+      },
+      {
+        "dza": "tsəsə",
+        "english": "halfway/middle"
+      },
+      {
+        "dza": "a donɨ",
+        "english": "anytime/any day"
+      },
+      {
+        "dza": "ku wə lo",
+        "english": "never (emphatic)"
+      },
+      {
+        "dza": "yinfa",
+        "english": "only/just because"
+      },
+      {
+        "dza": "tswilo / tswilɨ",
+        "english": "just now/recently"
+      },
+      {
+        "dza": "nggwa tsɨng",
+        "english": "privately/secretly"
+      },
+      {
+        "dza": "kĩkĩ",
+        "english": "clean/pure"
+      },
+      {
+        "dza": "nyɔ vi",
+        "english": "before (days before)"
+      },
+      {
+        "dza": "vi kitə a kə a itsɨng",
+        "english": "day of eternal judgment"
+      },
+      {
+        "dza": "pəpi",
+        "english": "quickly/fast"
+      },
+      {
+        "dza": "nabi / nabi nɨ",
+        "english": "immediately"
+      },
+      {
+        "dza": "təkə nyitɨngkuwə",
+        "english": "to the very end/completely"
+      },
+      {
+        "dza": "male",
+        "english": "this (account/written thing)"
+      },
+      {
+        "dza": "kəsɛ̃sɛ̃",
+        "english": "with certainty/clearly"
+      },
+      {
+        "dza": "nalə",
+        "english": "before/previously"
+      },
+      {
+        "dza": "səko",
+        "english": "greetings!/hail!"
+      },
+      {
+        "dza": "wɛ",
+        "english": "question particle (rhetorical)"
+      },
+      {
+        "dza": "hĩ",
+        "english": "already/done"
+      },
+      {
+        "dza": "hĩkwã",
+        "english": "properly/in order"
+      },
+      {
+        "dza": "bwadzwa",
+        "english": "turn/shift/lot"
+      },
+      {
+        "dza": "lelang",
+        "english": "immediately/at that moment"
+      },
+      {
+        "dza": "nabi nɨ",
+        "english": "immediately/right then"
+      },
+      {
+        "dza": "təkə chi",
+        "english": "from now on/henceforth"
+      },
+      {
+        "dza": "kə achɛ̃",
+        "english": "so much/greatly (confirmed)"
+      },
+      {
+        "dza": "nyɔ...hɛ̃",
+        "english": "all of/throughout"
+      },
+      {
+        "dza": "bɨngsə",
+        "english": "among/compared to"
+      },
+      {
+        "dza": "bɨngte",
+        "english": "throughout/in the hill country"
+      },
+      {
+        "dza": "hywĩhywĩ",
+        "english": "months (counting months)"
+      },
+      {
+        "dza": "bwahmə",
+        "english": "five (months variant)"
+      },
+      {
+        "dza": "hywĩtsɨng",
+        "english": "six (confirmed)"
+      },
+      {
+        "dza": "hywĩtsung",
+        "english": "six (variant)"
+      },
+      {
+        "dza": "nwakwə",
+        "english": "eight days (circumcision)"
+      },
+      {
+        "dza": "nɨ̀ (I, IPA)",
+        "english": "I (IPA confirmed)"
+      },
+      {
+        "dza": "mə̀ (you sg IPA)",
+        "english": "you singular (IPA confirmed)"
+      },
+      {
+        "dza": "ò (he/she IPA)",
+        "english": "he/she (IPA confirmed)"
+      },
+      {
+        "dza": "bɨ̀ (we IPA)",
+        "english": "we (IPA confirmed)"
+      },
+      {
+        "dza": "bə̀ (you pl IPA)",
+        "english": "you plural (IPA confirmed)"
+      },
+      {
+        "dza": "lɛ̀ (they IPA)",
+        "english": "they (IPA confirmed)"
+      },
+      {
+        "dza": "wə̀ (him/her IPA)",
+        "english": "him/her (IPA confirmed)"
+      },
+      {
+        "dza": "bɨ̀ŋ / pɨ̀tʃɨ́",
+        "english": "tomorrow (IPA)"
+      },
+      {
+        "dza": "dɔ̀ (yesterday IPA)",
+        "english": "yesterday (IPA confirmed)"
+      },
+      {
+        "dza": "kṳ́ (on/upon)",
+        "english": "on/upon"
+      },
+      {
+        "dza": "bwɑ̀ (under IPA)",
+        "english": "under (IPA confirmed)"
+      },
+      {
+        "dza": "pɨ̄ (beneath)",
+        "english": "beneath"
+      },
+      {
+        "dza": "tʃɨ̄ (front/before)",
+        "english": "in front/before"
+      },
+      {
+        "dza": "cɛ̀ (near)",
+        "english": "near/close"
+      },
+      {
+        "dza": "tswɛ̄ (far)",
+        "english": "far/distant"
+      },
+      {
+        "dza": "mɛ̄ (left side)",
+        "english": "left side"
+      }
+    ],
+    "religious_spiritual": [
+      {
+        "dza": "Fi",
+        "english": "God"
+      },
+      {
+        "dza": "Fi Ta",
+        "english": "God the Father"
+      },
+      {
+        "dza": "Yɨ Fi",
+        "english": "Son of God"
+      },
+      {
+        "dza": "Yɨ Tsɨng Dodo",
+        "english": "Only begotten Son"
+      },
+      {
+        "dza": "Yɨ Ifafɨ",
+        "english": "Son of Man"
+      },
+      {
+        "dza": "Kwang Fi",
+        "english": "Holy Spirit"
+      },
+      {
+        "dza": "Bi",
+        "english": "Word (divine)"
+      },
+      {
+        "dza": "Iwalena",
+        "english": "Messiah/Christ/Anointed One"
+      },
+      {
+        "dza": "Ilinwa / Ilingwa",
+        "english": "Prophet"
+      },
+      {
+        "dza": "Inyinasɨnɨng",
+        "english": "Teacher/Rabbi"
+      },
+      {
+        "dza": "Ikwətũ",
+        "english": "Angels/messengers"
+      },
+      {
+        "dza": "Ivə və Fi",
+        "english": "Kingdom of God"
+      },
+      {
+        "dza": "Kwə Fi",
+        "english": "Temple/House of God"
+      },
+      {
+        "dza": "lenwa",
+        "english": "law"
+      },
+      {
+        "dza": "bɔtismɔ",
+        "english": "baptism"
+      },
+      {
+        "dza": "nɨng abe",
+        "english": "sin/evil"
+      },
+      {
+        "dza": "hũlɨ a kə a itsɨng",
+        "english": "eternal life"
+      },
+      {
+        "dza": "nɨnglang hyãlɨ",
+        "english": "Passover feast"
+      },
+      {
+        "dza": "Nwanɨhywinɨng",
+        "english": "purification/ceremonial washing"
+      },
+      {
+        "dza": "Yeso",
+        "english": "Jesus"
+      },
+      {
+        "dza": "Kristi",
+        "english": "Christ"
+      },
+      {
+        "dza": "Musa",
+        "english": "Moses"
+      },
+      {
+        "dza": "Yohana",
+        "english": "John"
+      },
+      {
+        "dza": "Farisi / Farisa",
+        "english": "Pharisees"
+      },
+      {
+        "dza": "Yahuda",
+        "english": "Judea/Jews"
+      },
+      {
+        "dza": "Ihyɔ̃nɨng",
+        "english": "Priests"
+      },
+      {
+        "dza": "Levi",
+        "english": "Levites"
+      },
+      {
+        "dza": "Yɨ Ifafɨ",
+        "english": "Son of Man (confirmed)"
+      },
+      {
+        "dza": "Ta Ikəhũlɨ",
+        "english": "Living Father"
+      },
+      {
+        "dza": "igbə nɨngtsa a pikang",
+        "english": "Good Shepherd"
+      },
+      {
+        "dza": "kumpa tə hũlɨ",
+        "english": "Bread of Life"
+      },
+      {
+        "dza": "pɨ akəlɨ Fangwa",
+        "english": "Light of the World"
+      },
+      {
+        "dza": "nwakwə və nɨngpungga",
+        "english": "Gate of the Sheep"
+      },
+      {
+        "dza": "Nɨnglang Mə Kwə Fi Tsɨ",
+        "english": "Festival of Dedication"
+      },
+      {
+        "dza": "vi hũlɨ",
+        "english": "Sabbath (rest day)"
+      },
+      {
+        "dza": "nyitɨngku vi",
+        "english": "the last day (judgment)"
+      },
+      {
+        "dza": "Siluwam",
+        "english": "Siloam (pool)"
+      },
+      {
+        "dza": "Betsaida",
+        "english": "Bethesda (pool)"
+      },
+      {
+        "dza": "Betalami",
+        "english": "Bethlehem"
+      },
+      {
+        "dza": "lənyɔ",
+        "english": "lineage/family line"
+      },
+      {
+        "dza": "yi be ifɨ tũ / yilɨ tũ",
+        "english": "resurrection"
+      },
+      {
+        "dza": "təlɨ a hũlɨ",
+        "english": "the life (giver of life)"
+      },
+      {
+        "dza": "lenwa a hu",
+        "english": "new commandment"
+      },
+      {
+        "dza": "tswesəbi",
+        "english": "love one another (commandment)"
+      },
+      {
+        "dza": "nɨnglang hyãlɨ",
+        "english": "Passover (confirmed)"
+      },
+      {
+        "dza": "wədzwa kĩlɨ",
+        "english": "purification/cleansing"
+      },
+      {
+        "dza": "kitə a kə a itsɨng",
+        "english": "eternal judgment"
+      },
+      {
+        "dza": "Nɨnɨngvi itsɨkunɨng",
+        "english": "ruler of this world (Satan)"
+      },
+      {
+        "dza": "Ipenyɔnɨng Hɛ̃",
+        "english": "Most High God"
+      },
+      {
+        "dza": "Jibrailu",
+        "english": "Gabriel (angel)"
+      },
+      {
+        "dza": "Iwalena a tsalɨ",
+        "english": "Mighty Savior/Messiah"
+      },
+      {
+        "dza": "Yɨ Fi Ipenyɔnɨng Hɛ̃",
+        "english": "Son of the Most High God"
+      },
+      {
+        "dza": "Kwang Fi (Luke)",
+        "english": "Holy Spirit (confirmed in Luke)"
+      },
+      {
+        "dza": "ko ywi",
+        "english": "burn incense (worship)"
+      },
+      {
+        "dza": "nɨng hywinɨng hywikə",
+        "english": "sworn oath/promise"
+      },
+      {
+        "dza": "pyɛ̃lɨ achi",
+        "english": "circumcision"
+      },
+      {
+        "dza": "Itswe Bɔtismɔ",
+        "english": "the Baptist (title)"
+      },
+      {
+        "dza": "pɨkəpɨ",
+        "english": "dawn/sunrise/light from above"
+      }
+    ],
+    "key_phrases": [
+      {
+        "dza": "Kə akang sɨ min nə mə lə",
+        "english": "Truly truly I tell you"
+      },
+      {
+        "dza": "Ba wu ba bə",
+        "english": "Come and see"
+      },
+      {
+        "dza": "Ba bə",
+        "english": "Look! / Behold!"
+      },
+      {
+        "dza": "Yi a mwə nyi mi",
+        "english": "Come follow me"
+      },
+      {
+        "dza": "Dɨ mi kə wə",
+        "english": "I am he"
+      },
+      {
+        "dza": "Dɨ mə kə...",
+        "english": "You are..."
+      },
+      {
+        "dza": "Dɨ mi kə...lo",
+        "english": "I am not..."
+      },
+      {
+        "dza": "A wu",
+        "english": "Come! (singular command)"
+      },
+      {
+        "dza": "Ba wu",
+        "english": "Come! (plural command)"
+      },
+      {
+        "dza": "Tswe wũ / Tswe nwu",
+        "english": "Why?"
+      },
+      {
+        "dza": "hũlɨ a kə a itsɨng",
+        "english": "eternal life"
+      },
+      {
+        "dza": "Fi tswebi və Fangwa kə achɛ̃",
+        "english": "God so loved the world"
+      },
+      {
+        "dza": "pɨkə sɨ wə",
+        "english": "the next day"
+      },
+      {
+        "dza": "Oho",
+        "english": "No"
+      },
+      {
+        "dza": "Ba mə nɨhyã və Itwebɨ chĩhywa",
+        "english": "Make straight the way of the Lord"
+      },
+      {
+        "dza": "Dɨ mi kə kumpa tə hũlɨ",
+        "english": "I am the bread of life"
+      },
+      {
+        "dza": "Dɨ mi kə pɨ akəlɨ Fangwa",
+        "english": "I am the light of the world"
+      },
+      {
+        "dza": "Dɨ mi kə nwakwə",
+        "english": "I am the gate/door"
+      },
+      {
+        "dza": "Mi dɨ igbə nɨngtsa a pikang",
+        "english": "I am the good shepherd"
+      },
+      {
+        "dza": "Mi be Ta bɨ dɨ e ifɨ a tsɨng",
+        "english": "I and the Father are one"
+      },
+      {
+        "dza": "Pəko chilɨ və Ibrahim, Mi n lə!",
+        "english": "Before Abraham was, I am!"
+      },
+      {
+        "dza": "A tsɨpu a kwa ki mə a ho a tə",
+        "english": "Get up, pick up your mat, and walk"
+      },
+      {
+        "dza": "Ke ifɨ nɨ lɨng le wə hɛ̃ o wu sɨ mi o nwa",
+        "english": "Whoever is thirsty, come to me and drink"
+      },
+      {
+        "dza": "Bi anɨng yin wa bə lɨle",
+        "english": "The truth will set you free"
+      },
+      {
+        "dza": "N wu bisɨ e chi hũlɨ, e hũ kə a itsɨng",
+        "english": "I came that they may have life, life abundantly"
+      },
+      {
+        "dza": "Oho",
+        "english": "No"
+      },
+      {
+        "dza": "N yipɨ lo",
+        "english": "I don't know"
+      },
+      {
+        "dza": "Jɛnɨ",
+        "english": "Today"
+      },
+      {
+        "dza": "Nɨng tswe sɨbi!",
+        "english": "That's amazing! / What a miracle!"
+      },
+      {
+        "dza": "Bi ban bibi yɛ dɨ mi",
+        "english": "Don't be afraid, it is I"
+      },
+      {
+        "dza": "Dɨ mi kə ifɨ nɨ n tsa Mi Dɨ wə nɨ",
+        "english": "I am who I say I am"
+      },
+      {
+        "dza": "Dɨ mi be tsɨkunɨng yi be ifɨ tũ, be təlɨ a hũlɨ",
+        "english": "I am the resurrection and the life"
+      },
+      {
+        "dza": "Lazaru, yi a ji",
+        "english": "Lazarus, come out!"
+      },
+      {
+        "dza": "Ba tswesəbi",
+        "english": "Love one another"
+      },
+      {
+        "dza": "Dɨ lenwa a hu sɨ min tə bə",
+        "english": "A new commandment I give you"
+      },
+      {
+        "dza": "Yeso ta gə̃mi",
+        "english": "Jesus wept"
+      },
+      {
+        "dza": "Yənwa tsikə a və Fi kəachɛ̃",
+        "english": "Hosanna! Blessed be God!"
+      },
+      {
+        "dza": "Ifɨ nɨ sɨ man tswebi o kə achɛ̃ nɨ lwe nɨngshi",
+        "english": "The one you love is sick"
+      },
+      {
+        "dza": "Itwemi, e tsa sako a lə yang ke hywĩ mi bwi lo",
+        "english": "Lord, if you had been here my brother would not have died"
+      },
+      {
+        "dza": "Itwebɨ a wu a bə",
+        "english": "Lord, come and see"
+      },
+      {
+        "dza": "A donɨ hɛ̃, n kwələ a lo pu miw",
+        "english": "Never! You shall never wash my feet"
+      },
+      {
+        "dza": "Ke ifɨ nɨ kang hũlɨ wə hɛ̃ hũlɨ wə yin lɨla",
+        "english": "Whoever holds onto their life will lose it"
+      },
+      {
+        "dza": "Jɛnɨ pa yɛ tatalɨ, man yənwa hywi bwatə a tsa a yi mi lo",
+        "english": "Before the rooster crows, you will deny me three times"
+      },
+      {
+        "dza": "Min tə hũlɨ mi bisɨ mə",
+        "english": "I will lay down my life for you"
+      },
+      {
+        "dza": "Səko mə iye!",
+        "english": "Greetings!/Hail, woman!"
+      },
+      {
+        "dza": "Itwebɨ Fi tsung be mə",
+        "english": "The Lord God is with you"
+      },
+      {
+        "dza": "Bi man bibi yɛ",
+        "english": "Don't be afraid"
+      },
+      {
+        "dza": "Nɨng a shilɨ ywang sɨ Fi",
+        "english": "Nothing is impossible with God"
+      },
+      {
+        "dza": "Mi dɨ shə və Fi",
+        "english": "I am the servant of the Lord"
+      },
+      {
+        "dza": "Hũlɨ mi sɨn tə Itwebɨ Fi kãlɨ",
+        "english": "My soul magnifies the Lord"
+      },
+      {
+        "dza": "Kwang mi sɨn bɛ Fi nɨ wa mi le kə nɨ",
+        "english": "My spirit rejoices in God my Savior"
+      },
+      {
+        "dza": "Dzung wə Yohana",
+        "english": "His name is John"
+      },
+      {
+        "dza": "Dɨbə imwə nɨ yin myɛ kə?",
+        "english": "What will this child become?"
+      },
+      {
+        "dza": "Man dɨ ywa, man chi kə yɨ a ibwi",
+        "english": "You will conceive and bear a son"
+      },
+      {
+        "dza": "Mə dɨ ifɨ parkə bɨngsə e sə iye hɛ̃",
+        "english": "You are blessed among women"
+      },
+      {
+        "dza": "Bɨ yənwa sɨ Itwebɨ, Fi və Israila",
+        "english": "Praise be to the Lord, God of Israel"
+      },
+      {
+        "dza": "Fi li pɨkũpɨ mə yang",
+        "english": "God has heard your prayer"
+      },
+      {
+        "dza": "A chi kutswəmə yang sɨ Fi",
+        "english": "You have found favor with God"
+      },
+      {
+        "dza": "Dɨ mi Jibrailu nɨ sɨn tsɨkə pɨpi Fi nɨ",
+        "english": "I am Gabriel who stands in the presence of God"
+      },
+      {
+        "dza": "tsɑ̤̄ / tsa",
+        "english": "greetings (IPA for greet verb)"
+      },
+      {
+        "dza": "ŋwɑ́tṳ́",
+        "english": "work/labor"
+      },
+      {
+        "dza": "mwɔ̄lɨ́",
+        "english": "I had a dream"
+      },
+      {
+        "dza": "hɑ́ nɨ",
+        "english": "this year"
+      },
+      {
+        "dza": "dʒɛ̀nɨ́",
+        "english": "today (IPA confirmed)"
+      },
+      {
+        "dza": "bə̀ŋ",
+        "english": "tomorrow"
+      },
+      {
+        "dza": "dɔ̀",
+        "english": "yesterday (confirmed)"
+      }
+    ],
+    "example_sentences": [
+      {
+        "dza": "nwà wə̀ bí zɨ́tɨ́",
+        "english": "His mouth is very dirty."
+      },
+      {
+        "dza": "sò n hò gúdú gúdú",
+        "english": "He walks extremely heavily."
+      },
+      {
+        "dza": "nɨ́ŋmárí dè tə̃́ yɨ̀lɨ́ yɨ̀lɨ́",
+        "english": "The rice is very cold."
+      },
+      {
+        "dza": "ò jí bē nyívī fɛ̌̀fɛ̌̄",
+        "english": "He wakes up early morning."
+      },
+      {
+        "dza": "jɨ́ mī",
+        "english": "my child"
+      },
+      {
+        "dza": "ò wù dò",
+        "english": "He came yesterday."
+      },
+      {
+        "dza": "mə̀-n tə́-tə́",
+        "english": "You will go."
+      },
+      {
+        "dza": "mə̀-n tə́-tə̂",
+        "english": "Will you go?"
+      },
+      {
+        "dza": "Sɨ pəsɔ Bi lə",
+        "english": "In the beginning was the Word"
+      },
+      {
+        "dza": "Fi tswebi və Fangwa kə achɛ̃",
+        "english": "God so loved the world"
+      },
+      {
+        "dza": "A tə mi mɨng lə n nwa",
+        "english": "Give me water to drink"
+      },
+      {
+        "dza": "Ba wu ba bə",
+        "english": "Come and see"
+      },
+      {
+        "dza": "Dɨ mi kə Iwalena de lo",
+        "english": "I am not the Messiah"
+      },
+      {
+        "dza": "Bɨ chi Iwalena de yang",
+        "english": "We have found the Messiah"
+      },
+      {
+        "dza": "Mɨng a nwalɨ və le tɨng yang",
+        "english": "Their wine has run out"
+      },
+      {
+        "dza": "Ke nɨng nɨ o nə bə lə hɛ̃ ba tswe",
+        "english": "Whatever he tells you, do it"
+      },
+      {
+        "dza": "Tɔle e mə ifɨ e chi lo yang",
+        "english": "You must be born again"
+      },
+      {
+        "dza": "Ifɨ nɨ nwa mɨng nɨ min təkə nɨ lɨng lo",
+        "english": "Whoever drinks the water I give will never thirst"
+      },
+      {
+        "dza": "A tsɨpu a kwa ki mə a ho a tə",
+        "english": "Get up, pick up your mat, and walk"
+      },
+      {
+        "dza": "Dɨ mi kə kumpa tə hũlɨ",
+        "english": "I am the bread of life"
+      },
+      {
+        "dza": "Mi dɨ igbə nɨngtsa a pikang",
+        "english": "I am the good shepherd"
+      },
+      {
+        "dza": "Mi be Ta bɨ dɨ e ifɨ a tsɨng",
+        "english": "I and the Father are one"
+      },
+      {
+        "dza": "Pəko chilɨ və Ibrahim, Mi n lə!",
+        "english": "Before Abraham was, I am!"
+      },
+      {
+        "dza": "Bi ban bibi yɛ dɨ mi",
+        "english": "Don't be afraid, it is I"
+      },
+      {
+        "dza": "O bwɛ hywa o nu nɨng mi",
+        "english": "He made mud and put it on my eyes"
+      },
+      {
+        "dza": "Tə n lo nɨng mi bwa nvɔ Siluwam",
+        "english": "Go wash in the pool of Siloam"
+      },
+      {
+        "dza": "N tə hũlɨ mi yang bisɨ e nɨngpungga de",
+        "english": "I lay down my life for the sheep"
+      },
+      {
+        "dza": "Ba tə e ifafɨ de ku hywa",
+        "english": "Have the people sit down"
+      }
+    ]
+  },
+  "ideophones": [
+    {
+      "dza": "báŋlə́ŋ",
+      "meaning": "big and wide"
+    },
+    {
+      "dza": "bùtú bùtú",
+      "meaning": "smooth flour texture"
+    },
+    {
+      "dza": "dzwə́ dzwə́",
+      "meaning": "soft"
+    },
+    {
+      "dza": "fyɔ̃ fyɔ̃",
+      "meaning": "bright red"
+    },
+    {
+      "dza": "gbɨntɨŋ",
+      "meaning": "dark"
+    },
+    {
+      "dza": "gúdú gúdú",
+      "meaning": "heavy walking"
+    },
+    {
+      "dza": "kə̀lə̀ŋtə̀ŋ",
+      "meaning": "very tall"
+    },
+    {
+      "dza": "kə̄sɛ́",
+      "meaning": "very white"
+    },
+    {
+      "dza": "kpàŋ",
+      "meaning": "bright colour"
+    },
+    {
+      "dza": "kpāntāŋ",
+      "meaning": "very white"
+    },
+    {
+      "dza": "kpɨ̄ŋtɨ̄ŋ",
+      "meaning": "big and heavy"
+    },
+    {
+      "dza": "kũ̀kũ̀",
+      "meaning": "short"
+    },
+    {
+      "dza": "kwɛ́ kwɛ́",
+      "meaning": "very dry"
+    },
+    {
+      "dza": "mùmù",
+      "meaning": "nice smell"
+    },
+    {
+      "dza": "tūtū",
+      "meaning": "horrible smell"
+    },
+    {
+      "dza": "yɨ̀lɨ́ yɨ̀lɨ́",
+      "meaning": "extremely cool"
+    },
+    {
+      "dza": "zɨ̀tɨ́ zɨ̀tɨ́",
+      "meaning": "very dirty"
+    },
+    {
+      "dza": "tòlòlò",
+      "meaning": "walking foolishly"
+    },
+    {
+      "dza": "kúní kúní",
+      "meaning": "swagger walk"
+    },
+    {
+      "dza": "chɔ̄ chɔ̄",
+      "meaning": "very sour"
+    },
+    {
+      "dza": "gə̀ŋtə́ŋ",
+      "meaning": "very bitter"
+    },
+    {
+      "dza": "sɛ̀sɛ̀",
+      "meaning": "light and happy"
+    },
+    {
+      "dza": "yɨ̀yɨ̀",
+      "meaning": "feverish"
+    },
+    {
+      "dza": "hàlàlà",
+      "meaning": "watery soup"
+    },
+    {
+      "dza": "bùtùm",
+      "meaning": "sound of falling"
+    },
+    {
+      "dza": "gbàŋ gbàŋ",
+      "meaning": "big drum sound"
+    }
+  ],
+  "example_sentences": [
+    {
+      "dza": "nwà wə̀ bí zɨ́tɨ́",
+      "english": "His mouth is very dirty."
+    },
+    {
+      "dza": "sò n hò gúdú gúdú",
+      "english": "He walks extremely heavily."
+    },
+    {
+      "dza": "nɨ́ŋmárí dè tə̃́ yɨ̀lɨ́ yɨ̀lɨ́",
+      "english": "The rice is very cold."
+    },
+    {
+      "dza": "ò jí bē nyívī fɛ̌̀fɛ̌̄",
+      "english": "He wakes up early morning."
+    },
+    {
+      "dza": "jɨ́ mī",
+      "english": "my child"
+    },
+    {
+      "dza": "ò wù dò",
+      "english": "He came yesterday."
+    },
+    {
+      "dza": "mə̀-n tə́-tə́",
+      "english": "You will go."
+    },
+    {
+      "dza": "mə̀-n tə́-tə̂",
+      "english": "Will you go?"
+    },
+    {
+      "dza": "Sɨ pəsɔ Bi lə",
+      "english": "In the beginning was the Word"
+    },
+    {
+      "dza": "Fi tswebi və Fangwa kə achɛ̃",
+      "english": "God so loved the world"
+    },
+    {
+      "dza": "A tə mi mɨng lə n nwa",
+      "english": "Give me water to drink"
+    },
+    {
+      "dza": "Ba wu ba bə",
+      "english": "Come and see"
+    },
+    {
+      "dza": "Dɨ mi kə Iwalena de lo",
+      "english": "I am not the Messiah"
+    },
+    {
+      "dza": "Bɨ chi Iwalena de yang",
+      "english": "We have found the Messiah"
+    },
+    {
+      "dza": "Mɨng a nwalɨ və le tɨng yang",
+      "english": "Their wine has run out"
+    },
+    {
+      "dza": "Ke nɨng nɨ o nə bə lə hɛ̃ ba tswe",
+      "english": "Whatever he tells you, do it"
+    },
+    {
+      "dza": "Tɔle e mə ifɨ e chi lo yang",
+      "english": "You must be born again"
+    },
+    {
+      "dza": "Ifɨ nɨ nwa mɨng nɨ min təkə nɨ lɨng lo",
+      "english": "Whoever drinks the water I give will never thirst"
+    },
+    {
+      "dza": "A tsɨpu a kwa ki mə a ho a tə",
+      "english": "Get up, pick up your mat, and walk"
+    },
+    {
+      "dza": "Dɨ mi kə kumpa tə hũlɨ",
+      "english": "I am the bread of life"
+    },
+    {
+      "dza": "Mi dɨ igbə nɨngtsa a pikang",
+      "english": "I am the good shepherd"
+    },
+    {
+      "dza": "Mi be Ta bɨ dɨ e ifɨ a tsɨng",
+      "english": "I and the Father are one"
+    },
+    {
+      "dza": "Pəko chilɨ və Ibrahim, Mi n lə!",
+      "english": "Before Abraham was, I am!"
+    },
+    {
+      "dza": "Bi ban bibi yɛ dɨ mi",
+      "english": "Don't be afraid, it is I"
+    },
+    {
+      "dza": "O bwɛ hywa o nu nɨng mi",
+      "english": "He made mud and put it on my eyes"
+    },
+    {
+      "dza": "Tə n lo nɨng mi bwa nvɔ Siluwam",
+      "english": "Go wash in the pool of Siloam"
+    },
+    {
+      "dza": "N tə hũlɨ mi yang bisɨ e nɨngpungga de",
+      "english": "I lay down my life for the sheep"
+    },
+    {
+      "dza": "Ba tə e ifafɨ de ku hywa",
+      "english": "Have the people sit down"
+    },
+    {
+      "dza": "Lazaru, yi a ji",
+      "english": "Lazarus, come out!"
+    },
+    {
+      "dza": "Yeso ta gə̃mi",
+      "english": "Jesus wept"
+    },
+    {
+      "dza": "Ba tswesəbi",
+      "english": "Love one another"
+    },
+    {
+      "dza": "Hywĩ mə yin yiyi",
+      "english": "Your brother will rise again"
+    },
+    {
+      "dza": "O se nywi de kəpu Yeso fə o mwə tsaku wə son nukə",
+      "english": "She poured perfume on Jesus' feet and wiped them with her hair"
+    },
+    {
+      "dza": "Ba pĩ nɨng tswi bwa, ba le wə na o tə",
+      "english": "Take off the grave clothes and let him go"
+    },
+    {
+      "dza": "Ifɨ tsɨng bwi bisɨ e ifɨ",
+      "english": "One man should die for the people"
+    },
+    {
+      "dza": "Səko mə iye! Itwebɨ Fi tsung be mə",
+      "english": "Greetings! The Lord is with you"
+    },
+    {
+      "dza": "Mi dɨ shə və Fi",
+      "english": "I am the servant of the Lord"
+    },
+    {
+      "dza": "Nɨng a shilɨ ywang sɨ Fi",
+      "english": "Nothing is impossible with God"
+    },
+    {
+      "dza": "Dzung wə Yohana",
+      "english": "His name is John"
+    },
+    {
+      "dza": "Hũlɨ mi sɨn tə Itwebɨ Fi kãlɨ",
+      "english": "My soul magnifies the Lord"
+    },
+    {
+      "dza": "Ba wu bɨ tang",
+      "english": "Come let's eat"
+    },
+    {
+      "dza": "Ba wu bɨ tang nɨngtang",
+      "english": "Come let's eat food"
+    }
+  ],
+  "dialectal_differences": [
+    {
+      "word": "Guinea fowl",
+      "dzaka": "só",
+      "ye": "só",
+      "nwabang": "ʃó"
+    },
+    {
+      "word": "Water pot",
+      "dzaka": "d͡zɔ̤̀",
+      "ye": "zɔ̤̀",
+      "nwabang": "t͡ʃɔ̤̀"
+    },
+    {
+      "word": "foot",
+      "dzaka": "pù",
+      "ye": "bù",
+      "nwabang": "pù"
+    },
+    {
+      "word": "person",
+      "dzaka": "ífɨ̤̀",
+      "ye": "ívɨ̤̀",
+      "nwabang": "ífɨ̤̀"
+    },
+    {
+      "word": "give",
+      "dzaka": "tə̤̀",
+      "ye": "də̤̀",
+      "nwabang": "tə̤̀"
+    }
+  ],
+  "vowel_minimal_pairs": [
+    {
+      "oral": "fì (ring)",
+      "nasal": "fĩ̀ (plant spike)",
+      "breathy": "fì̤ (uncle)"
+    },
+    {
+      "oral": "kà (embrace)",
+      "nasal": "kã̀ (thank)",
+      "breathy": "kà̤ (mute)"
+    },
+    {
+      "oral": "kù (sieve)",
+      "nasal": "kũ̀ (shorten)",
+      "breathy": "kṳ̀ (belch)"
+    },
+    {
+      "oral": "sò (mouth cavity)",
+      "breathy": "sò̤ (elephant)"
+    },
+    {
+      "oral": "fō (foam)",
+      "breathy": "fò̤ (dust)"
+    }
+  ],
+  "resources": {
+    "bible_app": "Dza Bible on Google Play (org.fcbh.jennbt.np2.np)",
+    "elar_archive": "elararchive.org/dk0670",
+    "facebook": "facebook.com/Jenjoproject",
+    "dictionaries": "Dza-English and Dza-Hausa bilingual dictionaries (Othaniel ELDP project)",
+    "academic_papers": [
+      "Othaniel 2016 - Jenjo Phonology Statement",
+      "Othaniel 2022 - Breathy Voicing in Dza (MA thesis)",
+      "Norton & Othaniel 2020 - Jen Language Cluster comparative analysis",
+      "Benson 2020 - Ideophones in Dzə",
+      "Benson 2020 - Dzə Nouns and Noun Phrases",
+      "Kleinewillinghöfer 1995/2015 - Bikwin-Jen Comparative Wordlist"
+    ]
+  }
+}
