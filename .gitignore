@@ -32,3 +32,22 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Test / tooling caches
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Scratch / working data (Bible-mining artifacts; regenerable).
+# NOTE: the curated datasets data/dza_language_dataset_*.json are NOT ignored.
+data/luke_*.json
+data/luke_*.txt
+data/john_*.json
+data/john_*.txt
+data/*_candidates.json
+data/*_candidates.md
+data/_*.md
+data/_*.json
