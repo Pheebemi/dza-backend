@@ -62,7 +62,7 @@ def chat(request):
     ]
 
     try:
-        system_prompt = get_system_prompt()
+        system_prompt = get_system_prompt(message)
         reply = get_gemini_response(system_prompt, history, message)
     except Exception as e:
         tb = traceback.format_exc()
