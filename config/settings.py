@@ -73,6 +73,14 @@ CORS_ALLOWED_ORIGINS = os.environ.get(
     'CORS_ALLOWED_ORIGINS', 'http://localhost:3000'
 ).split(',')
 
+# CSRF trust for the Django admin when served over HTTPS (e.g. PythonAnywhere).
+# Derived from ALLOWED_HOSTS so no extra env var is needed in production.
+CSRF_TRUSTED_ORIGINS = [
+    f'https://{h.strip()}'
+    for h in ALLOWED_HOSTS
+    if h.strip() and h.strip() not in ('localhost', '127.0.0.1')
+]
+
 # REST Framework
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': ['rest_framework.renderers.JSONRenderer'],
