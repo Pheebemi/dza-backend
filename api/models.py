@@ -1,14 +1,21 @@
 import uuid
 
+from django.conf import settings
 from django.db import models
 
 
 class Conversation(models.Model):
-    """A single ongoing chat thread. Identified by an opaque UUID that the
-    browser stores in localStorage so a reload can resume the same thread.
-    No auth for the prototype."""
+    """A single ongoing chat thread, owned by a user. Identified by an opaque
+    UUID so the browser can resume the same thread."""
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name='conversations',
+        null=True,
+        blank=True,
+    )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

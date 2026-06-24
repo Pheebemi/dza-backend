@@ -2,15 +2,58 @@ import json
 import traceback
 from pathlib import Path
 
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 
-from rest_framework.decorators import api_view
+from rest_framework.authtoken.models import Token
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework import status
 
 from .gemini_client import get_gemini_response
 from .jenjo_prompt import get_system_prompt
 from .models import Conversation, Message
+
+
+# --------------------------------------------------------------------------- #
+# Auth
+# --------------------------------------------------------------------------- #
+@api_view(['POST'])
+def signup(request):
+    username = (request.data.get('username') or '').strip()
+    password = request.data.get('password') or ''
+    if not username or not password:
+        return Response({'error': 'Username and password are required.'},
+                        status=status.HTTP_400_BAD_REQUEST)
+    if len(password) < 6:
+        return Response({'error': 'Password must be at least 6 characters.'},
+                        status=status.HTTP_400_BAD_REQUEST)
+    if User.objects.filter(username__iexact=username).exists():
+        return Response({'error': 'That username is already taken.'},
+                        status=status.HTTP_400_BAD_REQUEST)
+    user = User.objects.create_user(username=username, password=password)
+    token, _ = Token.objects.get_or_create(user=user)
+    return Response({'token': token.key, 'username': user.username})
+
+
+@api_view(['POST'])
+def login(request):
+    username = (request.data.get('username') or '').strip()
+    password = request.data.get('password') or ''
+    user = authenticate(username=username, password=password)
+    if user is None:
+        return Response({'error': 'Invalid username or password.'},
+                        status=status.HTTP_400_BAD_REQUEST)
+    token, _ = Token.objects.get_or_create(user=user)
+    return Response({'token': token.key, 'username': user.username})
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def me(request):
+    return Response({'username': request.user.username})
 
 # Load dataset once at module level
 _DATASET_PATH = Path(__file__).resolve().parent.parent / 'data' / 'dza_language_dataset_v17.json'
@@ -22,18 +65,20 @@ except FileNotFoundError:
     JENJO_DATA = {}
 
 
-def _get_conversation(conversation_id):
-    """Return an existing Conversation for the given id, or None. Tolerates a
-    missing or malformed id (bad UUID) without raising."""
+def _get_conversation(conversation_id, user):
+    """Return the user's Conversation for the given id, or None. Tolerates a
+    missing or malformed id (bad UUID) without raising, and never returns a
+    conversation belonging to a different user."""
     if not conversation_id:
         return None
     try:
-        return Conversation.objects.filter(id=conversation_id).first()
+        return Conversation.objects.filter(id=conversation_id, user=user).first()
     except (ValueError, ValidationError):
         return None
 
 
 @api_view(['POST'])
+@permission_classes([IsAuthenticated])
 def chat(request):
     message = request.data.get('message', '').strip()
     conversation_id = request.data.get('conversation_id')
@@ -42,8 +87,11 @@ def chat(request):
     if not message:
         return Response({'error': 'Message is required'}, status=status.HTTP_400_BAD_REQUEST)
 
-    # Resume the existing thread, or start a new one.
-    conversation = _get_conversation(conversation_id) or Conversation.objects.create()
+    # Resume the user's existing thread, or start a new one for them.
+    conversation = (
+        _get_conversation(conversation_id, request.user)
+        or Conversation.objects.create(user=request.user)
+    )
 
     # Retry/regenerate: drop the previous turn so this reply replaces it
     # (instead of stacking a duplicate).
@@ -97,26 +145,28 @@ def _conversation_title(conversation):
 
 
 @api_view(['GET'])
+@permission_classes([IsAuthenticated])
 def conversations_list(request):
-    """List saved conversations (most recent first) for the sidebar."""
+    """List the signed-in user's saved conversations (most recent first)."""
     items = [
         {
             'id': str(c.id),
             'title': _conversation_title(c),
             'updated_at': c.updated_at.isoformat(),
         }
-        for c in Conversation.objects.all()
+        for c in Conversation.objects.filter(user=request.user)
         if c.messages.exists()  # skip empty threads
     ]
     return Response(items)
 
 
 @api_view(['GET', 'DELETE'])
+@permission_classes([IsAuthenticated])
 def conversation_detail(request, conversation_id):
     """GET: return all messages so the frontend can resume the thread after a
     reload (unknown id returns an empty thread rather than 404).
-    DELETE: remove the conversation and its messages."""
-    conversation = _get_conversation(conversation_id)
+    DELETE: remove the conversation and its messages. Scoped to the user."""
+    conversation = _get_conversation(conversation_id, request.user)
 
     if request.method == 'DELETE':
         if conversation is not None:
