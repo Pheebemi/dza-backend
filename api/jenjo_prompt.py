@@ -5,8 +5,26 @@ from pathlib import Path
 
 _DATASET_PATH = Path(__file__).resolve().parent.parent / 'data' / 'dza_language_dataset_v17.json'
 
-_BASE_PROMPT = None   # instructions + always-included core sections (cached)
+_BASE_PROMPT = None   # instructions + always-included essential sections (cached)
 _INDEX = None         # list of {dza, english, category, tokens} for retrieval (cached)
+_SECTIONS = None      # minified on-demand sections {name: json} (cached)
+
+# Always sent (small + essential for translating/grammar).
+_ALWAYS_SECTIONS = ('grammar', 'pronouns', 'numbers')
+
+# Sent only when the question mentions them (keeps each request small/fast).
+_SECTION_TRIGGERS = {
+    'alphabet': ('alphabet', 'letter', 'spell', 'script', 'write'),
+    'tone_system': ('tone', 'pitch'),
+    'lords_prayer': ('lord', 'prayer', 'pray', 'father'),
+    'ideophones': ('ideophone', 'onomatop', 'sound word'),
+    'example_sentences': ('example', 'sentence'),
+    'dialectal_differences': ('dialect', 'dzaka', 'nwabang', 'ye dialect'),
+    'vowel_system': ('vowel',),
+    'vowel_minimal_pairs': ('minimal pair', 'minimal-pair'),
+    'resources': ('resource', 'dictionary', 'bible app', 'learn more', 'book to'),
+    'language': ('speaker', 'how many people', 'where is', 'taraba', 'located'),
+}
 
 _INSTRUCTIONS = """You are a Jenjo (Dza) language tutor AI called "Pheebemi". You help users learn and communicate in the Jenjo/Dza language spoken in Taraba State, Nigeria by ~100,000 people.
 
@@ -72,9 +90,9 @@ def _tokens(s: str):
 
 
 def _load():
-    """Build and cache the base prompt (instructions + core sections) and the
-    vocabulary retrieval index."""
-    global _BASE_PROMPT, _INDEX
+    """Build and cache the base prompt (instructions + essential sections), the
+    on-demand sections, and the vocabulary retrieval index."""
+    global _BASE_PROMPT, _INDEX, _SECTIONS
     if _BASE_PROMPT is not None:
         return
 
@@ -84,18 +102,25 @@ def _load():
     except FileNotFoundError:
         _BASE_PROMPT = _INSTRUCTIONS + '\n\nERROR: dataset not found.'
         _INDEX = []
+        _SECTIONS = {}
         return
 
-    # Core (always included): everything except the big vocabulary dict. These
-    # are small and essential (grammar, pronouns, numbers, alphabet, tones,
-    # Lord's Prayer, etc.).
-    core = {k: v for k, v in dataset.items() if k != 'vocabulary'}
-    core_text = json.dumps(core, ensure_ascii=False, separators=(',', ':'))
+    # Always-included essentials only (grammar/pronouns/numbers) — small.
+    always = {k: dataset[k] for k in _ALWAYS_SECTIONS if k in dataset}
+    always_text = json.dumps(always, ensure_ascii=False, separators=(',', ':'))
     _BASE_PROMPT = (
         f'{_INSTRUCTIONS}\n\n'
-        f'# CORE REFERENCE (grammar, pronouns, numbers, alphabet, tones, Lord\'s Prayer, etc.):\n'
-        f'{core_text}'
+        f'# CORE (grammar, pronouns, numbers):\n'
+        f'{always_text}'
     )
+
+    # On-demand sections (alphabet, tones, Lord's Prayer, example sentences,
+    # etc.) — included only when the question mentions them.
+    _SECTIONS = {
+        name: json.dumps(dataset[name], ensure_ascii=False, separators=(',', ':'))
+        for name in _SECTION_TRIGGERS
+        if name in dataset
+    }
 
     # Vocabulary index for retrieval.
     index = []
@@ -171,13 +196,24 @@ def _retrieve(user_message: str, max_entries: int = 80):
 
 
 def get_system_prompt(user_message: str = '') -> str:
-    """Build the system prompt: always-included core + a focused slice of
-    vocabulary relevant to this message (keeps token usage low)."""
+    """Build the system prompt: always-included essentials + any on-demand
+    sections the question mentions + a focused slice of relevant vocabulary.
+    Keeps each request small so it stays under provider token limits."""
     _load()
-    entries = _retrieve(user_message) if user_message else []
+    if not user_message:
+        return _BASE_PROMPT
 
+    parts = [_BASE_PROMPT]
+
+    # On-demand sections triggered by keywords (alphabet, tones, prayer, etc.).
+    lower = _norm(user_message).lower()
+    for name, triggers in _SECTION_TRIGGERS.items():
+        if name in _SECTIONS and any(t in lower for t in triggers):
+            parts.append(f'# {name.upper()}:\n{_SECTIONS[name]}')
+
+    # Relevant vocabulary slice.
+    entries = _retrieve(user_message)
     if entries:
-        # group by category for readability
         by_cat = {}
         for e in entries:
             by_cat.setdefault(e['category'], []).append(e)
@@ -185,7 +221,6 @@ def get_system_prompt(user_message: str = '') -> str:
         for cat, items in by_cat.items():
             lines.append(f'\n## {cat}')
             lines.extend(_format_entry(e) for e in items)
-        vocab_block = '\n'.join(lines)
-        return f'{_BASE_PROMPT}\n\n{vocab_block}'
+        parts.append('\n'.join(lines))
 
-    return _BASE_PROMPT
+    return '\n\n'.join(parts)

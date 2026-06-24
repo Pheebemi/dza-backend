@@ -56,10 +56,12 @@ def chat(request):
             last_user.delete()
 
     # History is sourced from the DB (the source of truth), not the client.
+    # Only the last few turns are sent to the model to keep requests small and
+    # under provider token limits (the full thread still persists in the DB).
     history = [
         {'role': m.role, 'content': m.content}
         for m in conversation.messages.all()
-    ]
+    ][-8:]
 
     try:
         system_prompt = get_system_prompt(message)
@@ -124,7 +126,7 @@ def conversation_detail(request, conversation_id):
     if conversation is None:
         return Response({'conversation_id': None, 'messages': []})
     messages = [
-        {'role': m.role, 'content': m.content}
+        {'role': m.role, 'content': m.content, 'created_at': m.created_at.isoformat()}
         for m in conversation.messages.all()
     ]
     return Response({'conversation_id': str(conversation.id), 'messages': messages})
