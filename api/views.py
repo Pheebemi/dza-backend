@@ -174,12 +174,44 @@ def conversation_detail(request, conversation_id):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
     if conversation is None:
-        return Response({'conversation_id': None, 'messages': []})
+        return Response({'conversation_id': None, 'messages': [], 'has_more': False})
+
+    # Cursor pagination: return the most recent `limit` messages, or the batch
+    # just before `before` (a message id) when scrolling up. Avoids loading a
+    # whole long conversation at once.
+    try:
+        limit = int(request.query_params.get('limit', 20))
+    except (ValueError, TypeError):
+        limit = 20
+    limit = max(1, min(limit, 100))
+    before = request.query_params.get('before')
+
+    qs = conversation.messages.order_by('-id')  # newest first
+    if before:
+        try:
+            qs = qs.filter(id__lt=int(before))
+        except (ValueError, TypeError):
+            pass
+
+    batch = list(qs[: limit + 1])         # one extra to detect more
+    has_more = len(batch) > limit
+    batch = batch[:limit]
+    batch.reverse()                       # back to chronological order
+
     messages = [
-        {'role': m.role, 'content': m.content, 'created_at': m.created_at.isoformat()}
-        for m in conversation.messages.all()
+        {
+            'id': m.id,
+            'role': m.role,
+            'content': m.content,
+            'created_at': m.created_at.isoformat(),
+        }
+        for m in batch
     ]
-    return Response({'conversation_id': str(conversation.id), 'messages': messages})
+    return Response({
+        'conversation_id': str(conversation.id),
+        'messages': messages,
+        'has_more': has_more,
+    })
 
 
 @api_view(['GET'])
