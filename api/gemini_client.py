@@ -10,12 +10,19 @@ _CACHE_TTL = '3600s'  # re-cache the system prompt hourly
 # off by default. Set GEMINI_ENABLE_CACHE=1 once billing is enabled.
 _CACHE_ENABLED = os.environ.get('GEMINI_ENABLE_CACHE', '').lower() in ('1', 'true', 'yes')
 
-# Groq (optional): if a key is present we try Groq first (fast, separate free
-# quota) and fall back to Gemini on any failure.
+# Groq (optional): tried first (fast), Gemini as fallback. Supports a
+# comma-separated list of keys (GROQ_API_KEYS), rotated round-robin and
+# failed-over on rate limits, falling back to the single GROQ_API_KEY.
 _GROQ_MODEL = os.environ.get('GROQ_MODEL', 'llama-3.3-70b-versatile')
+_GROQ_KEYS = [
+    k.strip()
+    for k in (os.environ.get('GROQ_API_KEYS') or os.environ.get('GROQ_API_KEY') or '').split(',')
+    if k.strip()
+]
 
 _client = None
-_groq_client = None
+_groq_clients = {}      # api_key -> Groq client (created lazily)
+_groq_rr = 0            # round-robin pointer across the keys
 _cache_name = None      # name of the cached system prompt, reused across requests
 _caching_disabled = not _CACHE_ENABLED  # stop retrying once we know it won't work
 
@@ -30,16 +37,12 @@ def _get_client():
     return _client
 
 
-def _get_groq_client():
-    """Return a Groq client if GROQ_API_KEY is set, else None."""
-    global _groq_client
-    key = os.environ.get('GROQ_API_KEY')
-    if not key:
-        return None
-    if _groq_client is None:
+def _get_groq_client(key: str):
+    """Lazily create (and cache) a Groq client for a given API key."""
+    if key not in _groq_clients:
         from groq import Groq
-        _groq_client = Groq(api_key=key)
-    return _groq_client
+        _groq_clients[key] = Groq(api_key=key)
+    return _groq_clients[key]
 
 
 def _format_history(conversation_history: list):
@@ -58,8 +61,8 @@ def _format_history(conversation_history: list):
 # Groq (primary when available)
 # --------------------------------------------------------------------------- #
 def _groq_response(system_prompt: str, conversation_history: list, user_message: str) -> str:
-    client = _get_groq_client()
-    if client is None:
+    global _groq_rr
+    if not _GROQ_KEYS:
         raise RuntimeError('Groq not configured')
 
     messages = [{'role': 'system', 'content': system_prompt}]
@@ -68,15 +71,27 @@ def _groq_response(system_prompt: str, conversation_history: list, user_message:
         messages.append({'role': role, 'content': m.get('content', '')})
     messages.append({'role': 'user', 'content': user_message})
 
-    resp = client.chat.completions.create(
-        model=_GROQ_MODEL,
-        messages=messages,
-        temperature=0.6,
-    )
-    text = resp.choices[0].message.content
-    if not text or not text.strip():
-        raise RuntimeError('Groq returned empty response')
-    return text
+    # Round-robin across keys; on failure (e.g. rate limit) try the next one.
+    n = len(_GROQ_KEYS)
+    start = _groq_rr
+    _groq_rr = (_groq_rr + 1) % n
+    last_err = None
+    for offset in range(n):
+        key = _GROQ_KEYS[(start + offset) % n]
+        try:
+            resp = _get_groq_client(key).chat.completions.create(
+                model=_GROQ_MODEL,
+                messages=messages,
+                temperature=0.6,
+            )
+            text = resp.choices[0].message.content
+            if text and text.strip():
+                return text
+            last_err = RuntimeError('Groq returned empty response')
+        except Exception as e:
+            last_err = e
+            print(f'Groq key #{(start + offset) % n + 1}/{n} failed, trying next:', e)
+    raise last_err or RuntimeError('All Groq keys failed')
 
 
 # --------------------------------------------------------------------------- #
@@ -138,10 +153,10 @@ def _gemini_response(system_prompt: str, conversation_history: list, user_messag
 def get_gemini_response(system_prompt: str, conversation_history: list, user_message: str) -> str:
     """Try Groq first (if configured), then fall back to Gemini. Raises the
     last error only if BOTH providers fail."""
-    if _get_groq_client() is not None:
+    if _GROQ_KEYS:
         try:
             return _groq_response(system_prompt, conversation_history, user_message)
         except Exception as e:
-            print('Groq failed, falling back to Gemini:', e)
+            print('Groq failed (all keys), falling back to Gemini:', e)
 
     return _gemini_response(system_prompt, conversation_history, user_message)
